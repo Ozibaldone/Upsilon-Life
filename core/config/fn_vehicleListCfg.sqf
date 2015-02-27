@@ -42,6 +42,7 @@ switch (_shop) do
 		[
 			["B_Quadbike_01_F",2000],
 			["C_Hatchback_01_F",7500],
+			["C_Hatchback_01_sport_F",14000],
 			["C_Offroad_01_F",11500],
 			["C_SUV_01_F",19000],
 			["C_Van_01_transport_F",30000]
