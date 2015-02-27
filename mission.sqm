@@ -2825,7 +2825,7 @@ class Mission
 				class Item44
 				{
 					position[]={3399.1348,4.7554231,13105.104};
-					azimut=324.25311;
+					azimut=324.25299;
 					offsetY=0.5;
 					special="NONE";
 					id=145;
@@ -76585,7 +76585,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=307;
+		items=308;
 		class Item0
 		{
 			position[]={8462.0215,106.47763,25095.248};
@@ -76860,10 +76860,9 @@ class Mission
 		};
 		class Item35
 		{
-			position[]={3388.9614,4.234704,13123.35};
+			position[]={3394.3474,4.1501489,13127.222};
 			name="civ_car_1_1";
 			type="Empty";
-			angle=-738.40906;
 		};
 		class Item36
 		{
@@ -79138,6 +79137,12 @@ class Mission
 		{
 			position[]={9203.2354,14.514101,21676.438};
 			name="reb_ga_13";
+			type="Empty";
+		};
+		class Item307
+		{
+			position[]={3385.4866,4.2916389,13121.528};
+			name="civ_car_1";
 			type="Empty";
 		};
 	};
