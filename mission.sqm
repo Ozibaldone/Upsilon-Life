@@ -80703,26 +80703,13 @@ class Mission
 		};
 		class Item308
 		{
-			position[]={10343.441,126.24586,18026.303};
-			name="VIP_1";
+			position[]={10346.401,126.34307,18021.477};
+			name="VIP_Camp_1";
 			text="Camp VIP";
 			type="mil_objective";
 			colorName="ColorYellow";
 		};
 		class Item309
-		{
-			position[]={10342.33,127.41,18003.865};
-			name="vip1";
-			text="VIP";
-			markerType="RECTANGLE";
-			type="Empty";
-			colorName="ColorGreen";
-			fillName="DiagGrid";
-			a=60;
-			b=60;
-			angle=-5.1541147;
-		};
-		class Item310
 		{
 			position[]={166.54559,-0.10789981,13319.801};
 			name="Camp VIP";
@@ -80730,26 +80717,32 @@ class Mission
 			type="mil_objective";
 			colorName="ColorYellow";
 		};
-		class Item311
+		class Item310
 		{
-			position[]={10336.152,127.24852,18007.996};
+			position[]={10342.919,127.07925,18008.406};
 			name="donateur_s_1";
 			type="Empty";
 			angle=-177.811;
 		};
-		class Item312
+		class Item311
 		{
-			position[]={10354.457,126.64113,18007.738};
+			position[]={10376.646,126.09515,18000.803};
 			name="donateur_g_1";
 			type="Empty";
 			angle=-182.961;
 		};
-		class Item313
+		class Item312
 		{
-			position[]={3520.2356,8.5691385,13000.332};
+			position[]={3516.571,8.3954792,12993.576};
 			name="medic_spawn_1";
 			type="Empty";
-			angle=271.17499;
+			angle=180;
+		};
+		class Item313
+		{
+			position[]={10376.453,125.63838,18016.592};
+			name="vip_1";
+			type="Empty";
 		};
 	};
 };
