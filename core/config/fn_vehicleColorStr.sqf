@@ -72,7 +72,7 @@ switch (_vehicle) do
 			case 1: {_color = "Black"};
 			case 2: {_color = "Silver"};
 			case 3: {_color = "Orange"};
-			case 4: {_color = "SUV-Cop"};
+			case 4: {_color = "police_suv"};
 			case 5: {_color = "SUV-PTT"};
 			case 6: {_color = "SUV-upsilonTv"};
 			case 7: {_color = "SUV-Bierre"};
