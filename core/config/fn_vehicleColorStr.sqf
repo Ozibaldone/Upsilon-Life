@@ -58,6 +58,7 @@ switch (_vehicle) do
 			case 4: {_color = "Tan"};
 			case 5: {_color = "HS-Gendarmerie"};
 			case 6: {_color = "HS-ken"};
+			case 7: {_color = "HS-Rock"};
 		};
 	};
 	
