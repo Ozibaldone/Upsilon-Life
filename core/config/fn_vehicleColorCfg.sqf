@@ -34,6 +34,7 @@ switch (_vehicle) do
 			[_path + "hatchback_01_ext_sport05_co.paa","civ"],
 			["textures\police\hailon-s-gendarmerie.jpg","cop"],
 			["textures\civil\hailon-s-Ken.jpg","civ"]
+			["textures\civil\hailon-rock.jpg","civ"]
 		];
 	};
 		
@@ -52,6 +53,7 @@ switch (_vehicle) do
 			["textures\civil\tout-terrain-ghost.jpg","civ"],
 			["textures\police\tout-terrain-gendaremie.jpg","cop"],
 			["textures\medic\tout-terrain-medic.jpg","med"]
+			
 		];
 	};
 	
@@ -69,8 +71,6 @@ switch (_vehicle) do
 			["textures\police\hailon-gendarmerie.jpg","cop"],
 			["textures\civil\hailon-upsilon.jpg","civ"],
 			["textures\civil\hailon-321pc.jpg","civ"],
-			["textures\civil\hailon-rock.jpg","civ"],
-			["textures\civil\hailon-s-ken.jpg","civ"]
 			
 			
 		];
