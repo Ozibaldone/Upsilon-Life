@@ -34,11 +34,11 @@ switch (_side) do
 			["civ_spawn_4","Sofia","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
 		];
 		
-		if((call life_donator) == 1) then
+		if((call life_donator) == 1) then {
 			_return set [count _return, ["VIP_1","Camp VIP","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]];
 		};
 		
-		if((call life_donator) == 2) then
+		if((call life_donator) == 2) then {
 			_return set [count _return, ["VIP_1","Camp VIP","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]];
 		};
 		
