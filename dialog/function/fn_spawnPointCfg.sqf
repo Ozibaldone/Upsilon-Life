@@ -34,6 +34,14 @@ switch (_side) do
 			["civ_spawn_4","Sofia","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
 		];
 		
+		if((call life_donator) == 1) then
+			_return set [count _return, ["VIP_1","Camp VIP","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]];
+		};
+		
+		if((call life_donator) == 2) then
+			_return set [count _return, ["VIP_1","Camp VIP","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]];
+		};
+		
 		if(license_civ_rebel) then {
 			_return set [count _return, ["Rebelop","Reb. Nord","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]];
 			_return set [count _return, ["Rebelop_1","Reb. Sud","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]];
@@ -53,9 +61,9 @@ switch (_side) do
 	
 	case independent: {
 		_return = [
-			["medic_spawn_1","Kavala Hospital","\a3\ui_f\data\map\MapControl\hospital_ca.paa"],
-			["medic_spawn_2","Athira Regional","\a3\ui_f\data\map\MapControl\hospital_ca.paa"],
-			["medic_spawn_3","Pygros Hospital","\a3\ui_f\data\map\MapControl\hospital_ca.paa"]
+			["medic_spawn_1","Kavala Hopital","\a3\ui_f\data\map\MapControl\hospital_ca.paa"],
+			["medic_spawn_2","Athira Hopital","\a3\ui_f\data\map\MapControl\hospital_ca.paa"],
+			["medic_spawn_3","Pygros Hopital","\a3\ui_f\data\map\MapControl\hospital_ca.paa"]
 		];
 	};
 };
