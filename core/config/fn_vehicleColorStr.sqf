@@ -46,6 +46,7 @@ switch (_vehicle) do
 			case 9: {_color = "H-321pc"};
 			case 10: {_color = "Rockstar"};
 			case 11: {_color = "Monster"};
+			case 12 mertre
 		};
 	};
 	
