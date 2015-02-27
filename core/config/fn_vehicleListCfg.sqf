@@ -1,6 +1,6 @@
 #include <macro.h>
 /*
-	File:
+	File
 	Author: Bryan "Tonic" Boardwine
 	
 	Description:
