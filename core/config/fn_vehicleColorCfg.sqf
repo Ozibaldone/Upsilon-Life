@@ -33,8 +33,9 @@ switch (_vehicle) do
 			[_path + "hatchback_01_ext_sport04_co.paa","civ"],
 			[_path + "hatchback_01_ext_sport05_co.paa","civ"],
 			["textures\police\hailon-s-gendarmerie.jpg","cop"],
-			["textures\civil\hailon-s-Ken.jpg","civ"]
-			["textures\civil\hailon-rock.jpg","civ"]
+			["textures\civil\hailon-s-Ken.jpg","civ"],
+			["textures\civil\hailon-rock.jpg","civ"],
+			["textures\civil\redbull.jpg","civ"]
 		];
 	};
 		
