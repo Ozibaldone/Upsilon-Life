@@ -44,9 +44,6 @@ switch (_vehicle) do
 			case 7: {_color = "H-Gendarmerie"};
 			case 8: {_color = "H-Upsilon"};
 			case 9: {_color = "H-321pc"};
-			case 10: {_color = "Rockstar"};
-			case 11: {_color = "Monster"};
-			case 12 mertre
 		};
 	};
 	
@@ -72,7 +69,7 @@ switch (_vehicle) do
 			case 1: {_color = "Black"};
 			case 2: {_color = "Silver"};
 			case 3: {_color = "Orange"};
-			case 4: {_color = "police_suv"};
+			case 4: {_color = "SUV-Cop"};
 			case 5: {_color = "SUV-PTT"};
 			case 6: {_color = "SUV-upsilonTv"};
 			case 7: {_color = "SUV-Bierre"};
@@ -172,10 +169,9 @@ switch (_vehicle) do
 			case 5: {_color = "if-Troll"};
 			case 6: {_color = "if-Rat"};
 			case 7: {_color = "if-Cop"};
-			case 8: {_color = "iF-Team-FTG"};
-			case 9: {_color = "iF-Team-COLLINS"};
-			case 10: {_color = "if-Team-Satanas"};
-			case 11: {_color = "if-camo-black"};
+			case 8: {_color = "iF-FTG"};
+			case 9: {_color = "iF-COLLINS"};
+			case 10: {_color = "if-Satanas"};
 		};
 	};	
 
