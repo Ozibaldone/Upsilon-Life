@@ -331,7 +331,7 @@ switch (_shop) do
 			_return set[count _return,["B_Heli_Transport_03_unarmed_F",350000]];
 			_return set[count _return,["B_Heli_Transport_03_F",500000]];
 			_return set[count _return,["O_Truck_03_device_F",1300000]];
-			_return set[count _return,["I_Heli_Transport_02_F",1300000]];
+			_return set[count _return,["I_Heli_Transport_02_F",1300001]];
 		};
 		
 		if((call life_donator) == 2) then
