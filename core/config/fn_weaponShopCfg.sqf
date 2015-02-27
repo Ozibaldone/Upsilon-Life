@@ -485,18 +485,9 @@ switch(_shop) do
                         ["LMG_Mk200_F 75000",nil,75000],
                         ["200Rnd_65x39_cased_Box",nil,200],
                         ["200Rnd_65x39_cased_Box_Tracer",nil,201]
-					]
+					];
 				];
 			};
-
-			case ((call life_donator) == 2):
-			{
-				["Armes Donateur Tier 2",
-					[
-						
-					]
-				];
-			};
-		];
+		};
 	};
 };

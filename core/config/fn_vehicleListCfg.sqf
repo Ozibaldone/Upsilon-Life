@@ -334,11 +334,6 @@ switch (_shop) do
 			_return set[count _return,["O_Truck_03_device_F",1300000]];
 			_return set[count _return,["I_Heli_Transport_02_F",1300001]];
 		};
-		
-		if((call life_donator) == 2) then
-		{
-		
-		};
 	};	
 };
 _return;
