@@ -46,7 +46,6 @@ class Life_Client_Core
 		class welcomeNotification {};
 		class initZeus {};
 		class updateClothes {};
-		class copSkin {};
 	};
 	
 	class Admin
