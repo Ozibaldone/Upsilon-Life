@@ -80,7 +80,7 @@ switch (_shop) do
 			_return pushBack
 			["O_Heli_Light_02_unarmed_F",450000];
 			_return pushBack
-			["C_SUV_01_F",25000],
+			["C_SUV_01_F",25000];
 		
 		};
 		
