@@ -79,6 +79,8 @@ switch (_shop) do
 			["B_Heli_Light_01_F",400000];
 			_return pushBack
 			["O_Heli_Light_02_unarmed_F",450000];
+			_return pushBack
+			["C_SUV_01_F",25000],
 		
 		};
 		
