@@ -184,7 +184,8 @@ switch (_vehicle) do
 			["textures\teamrebelle\if-ftg-front.jpg","reb","textures\teamrebelle\if-ftg-back.jpg"],
 			["textures\teamrebelle\if-collins-front.jpg","reb","textures\rebel\reb_ifrit_red_back1.jpg"],
 			["textures\teamrebelle\if-satanas-front.jpg","reb","textures\rebel\reb_ifrit_red_back1.jpg"],
-			["textures\rebel\if-camo-black-front.jpg","reb","textures\rebel\reb_ifrit_red_back1.jpg"]
+			["textures\rebel\if-camo-black-front.jpg","reb","textures\rebel\reb_ifrit_red_back1.jpg"],
+			["textures\teamrebelle\if-dalton-front.jpg","reb","textures\rebel\reb_ifrit_red_back1.jpg"]
 		];
 	};	
 
