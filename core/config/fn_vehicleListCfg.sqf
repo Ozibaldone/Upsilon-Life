@@ -317,23 +317,40 @@ switch (_shop) do
 	{
 		if((call life_donator) == 1) then
 		{
-			_return set[count _return,["O_G_Offroad_01_F",22000]];
-			_return set[count _return,["O_G_Offroad_01_armed_F",430000]];
-			_return set[count _return,["B_MRAP_01_F",286000]];
-			_return set[count _return,["O_MRAP_02_F",286000]];
-			_return set[count _return,["I_MRAP_03_F",286000]];
-			_return set[count _return,["B_Heli_Light_01_F",286000];
-			_return set[count _return,["O_Heli_Light_02_unarmed_F"322000]];
-			_return set[count _return,["B_MRAP_01_hmg_F",700000]];
-			_return set[count _return,["O_MRAP_02_hmg_F",700000]];
-			_return set[count _return,["I_MRAP_03_hmg_F",700000]];
-//			_return set[count _return,["B_Heli_Light_01_armed_F",600000];
-//			_return set[count _return,["O_Heli_Light_02_F",8500000];
-			_return set[count _return,["B_Heli_Transport_03_unarmed_F",350000]];
-			_return set[count _return,["B_Heli_Transport_03_F",500000]];
-			_return set[count _return,["O_Truck_03_device_F",1300000]];
-			_return set[count _return,["I_Heli_Transport_02_F",1300001]];
+			_return pushBack
+			["O_G_Offroad_01_F",22000];
+			_return pushBack
+			["O_G_Offroad_01_armed_F",430000];
+			_return pushBack
+			["B_MRAP_01_F",286000];
+			_return pushBack
+			["O_MRAP_02_F",286000];
+			_return pushBack
+			["I_MRAP_03_F",286000];
+			_return pushBack
+			["B_Heli_Light_01_F",286000];
+			_return pushBack
+			["O_Heli_Light_02_unarmed_F"322000];
+			_return pushBack
+			["B_MRAP_01_hmg_F",700000];
+			_return pushBack
+			["O_MRAP_02_hmg_F",700000];
+			_return pushBack
+			["I_MRAP_03_hmg_F",700000];
+//			_return pushBack
+//			["B_Heli_Light_01_armed_F",600000];
+//			_return pushBack
+//			["O_Heli_Light_02_F",8500000];
+			_return pushBack
+			["B_Heli_Transport_03_unarmed_F",350000];
+			_return pushBack
+			["B_Heli_Transport_03_F",500000];
+			_return pushBack
+			["O_Truck_03_device_F",1300000];
+			_return pushBack
+			["I_Heli_Transport_02_F",1300001];
 		};
 	};	
 };
+
 _return;
