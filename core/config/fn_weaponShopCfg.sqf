@@ -451,7 +451,7 @@ switch(_shop) do
 			case ((call life_donator) == 0): {"Vous n'êtes pas donateur !"};
 			case ((call life_donator) == 1):
 			{
-				["Armes Donateur Tier 1",
+				["Magazin Donateur Tier 1",
 					[
 						["arifle_Mk20_F",nil,33000],
 						["30Rnd_556x45_Stanag",nil,150],
@@ -484,8 +484,8 @@ switch(_shop) do
 						["5Rnd_127x108_APDS_Mag",nil,4000],
                         ["LMG_Mk200_F 75000",nil,75000],
                         ["200Rnd_65x39_cased_Box",nil,200],
-                        ["200Rnd_65x39_cased_Box_Tracer",nil,201]
-					];
+                        ["200Rnd_65x39_cased_Box_Tracer",nil,200]
+					]
 				];
 			};
 		};
