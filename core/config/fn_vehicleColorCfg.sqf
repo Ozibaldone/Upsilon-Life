@@ -90,7 +90,7 @@ switch (_vehicle) do
 			["textures\civil\suv-uptv.jpg","civ"],
 			["textures\civil\suv-bierre.jpg","civ"],
 			["textures\medic\suv-medical.jpg","med"],
-			["textures\teamrebelle\suv-tbs","reb"]
+			["textures\teamrebelle\suv-tbs.jpg","reb"]
 		];
 	};
 	
