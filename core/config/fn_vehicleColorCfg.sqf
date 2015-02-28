@@ -151,7 +151,7 @@ switch (_vehicle) do
 			["\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_wave_co.paa","civ"],
 			["\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_digital_co.paa","reb"],
 			["#(argb,8,8,3)color(1,1,1,0.8)","med"],
-			["textures\medic\helicopsecours.jpeg","med"]
+			["textures\medic\helicopsecours.jpg","med"]
 	
 		];
 	};
