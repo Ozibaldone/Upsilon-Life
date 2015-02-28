@@ -71,7 +71,7 @@ switch (_vehicle) do
 			["\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base08_co.paa","civ"],
 			["textures\police\hailon-gendarmerie.jpg","cop"],
 			["textures\civil\hailon-upsilon.jpg","civ"],
-			["textures\civil\hailon-321pc.jpg","civ"],
+			["textures\civil\hailon-321pc.jpg","civ"]
 			
 			
 		];
