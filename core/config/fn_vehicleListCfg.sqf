@@ -315,7 +315,7 @@ switch (_shop) do
 
 	case "donator":
 	{
-		if((call life_donator) == 1) then
+		if(__GETC__(call life_donator) == 1) then
 		{
 			_return pushBack
 			["O_G_Offroad_01_F",22000];
@@ -330,7 +330,7 @@ switch (_shop) do
 			_return pushBack
 			["B_Heli_Light_01_F",286000];
 			_return pushBack
-			["O_Heli_Light_02_unarmed_F"322000];
+			["O_Heli_Light_02_unarmed_F",322000];
 			_return pushBack
 			["B_MRAP_01_hmg_F",700000];
 			_return pushBack
