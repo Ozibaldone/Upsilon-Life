@@ -136,7 +136,7 @@ switch (_vehicle) do
 	{
 		_ret = 
 		[
-			["textures\police\hummingbird.jpg","cop"],
+			["textures\police\heli-cop.jpg","cop"],
 			["\a3\air_f\Heli_Light_01\Data\heli_light_01_ext_ion_co.paa","fed"],
 			["\a3\air_f\Heli_Light_01\Data\heli_light_01_ext_blue_co.paa","civ"],
 			["\a3\air_f\Heli_Light_01\Data\heli_light_01_ext_co.paa","civ"],
