@@ -34,16 +34,16 @@ switch (_side) do
 			["civ_spawn_4","Sofia","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
 		];
 		
-		if((call life_donator) > 0) then {
-			_return = _return + [
-				["vip_1","Camp Donateur","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
-			];
-		};
-		
 		if(license_civ_rebel) then {
 			_return set [count _return, ["Rebelop","Reb. Nord","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]];
 			_return set [count _return, ["Rebelop_1","Reb. Sud","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]];
 			_return set [count _return, ["Rebelop_6","Reb. Est","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]];
+		};
+		
+		if((call life_donator) > 0) then {
+			_return = _return + [
+				["vip_1","Camp Donateur","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
+			];
 		};
 		
 		if(count life_houses > 0) then {
