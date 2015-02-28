@@ -36,7 +36,7 @@ switch (_side) do
 		
 		if((call life_donator) > 0) then {
 			_return = _return + [
-				["vip_1","Camp Donateur","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+				["vip_1","Camp Donateur","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
 			];
 		};
 		

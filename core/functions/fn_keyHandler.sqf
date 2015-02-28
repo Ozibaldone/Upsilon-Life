@@ -138,25 +138,6 @@ switch (_code) do
 			};
 		};
 	};
-
-	// SHIFT+P pour mettre ou retirer les boules quiès
-	// appuyer sur le shift droit du clavier ou changer de touche, car en conflit avec le message du DLC Arma
-
-	case 25:
-	{
-		if(_shift) then
-		{
-			if (soundVolume != 1) then 
-			{
-			1 fadeSound 1;
-			titleText ["Vous avez enlevé vos boules quiès.", "PLAIN"];
-       }
-        else
-		{
-	     1 fadeSound 0.1;
-	     titleText ["Vous avez mis vos boules quiès.", "PLAIN"];
-       };
-    };
 	
 	//T Key (Trunk)
 	case 20:
