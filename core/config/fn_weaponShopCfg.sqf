@@ -473,7 +473,7 @@ switch(_shop) do
 						["srifle_EBR_F",nil,70000],
 						["20Rnd_762x51_Mag",nil,100],
 						["LMG_Zafir_F",nil,80000],
-						["150Rnd_762x51_Box",60],
+						["150Rnd_762x51_Box",nil,60],
 						["150Rnd_762x51_Box_Tracer",nil,160],
 						["srifle_LRR_F",nil,250000],
 						["srifle_LRR_camo_F",nil,250000],
