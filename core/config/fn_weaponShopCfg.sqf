@@ -468,7 +468,7 @@ switch(_shop) do
 						["arifle_MXM_F",nil,50000],
 						["30Rnd_65x39_caseless_mag",nil,100],
 						["30Rnd_65x39_caseless_mag_Tracer",nil,100],
-						["srifle_DMR_01_F",nil,650000],
+						["srifle_DMR_01_F",nil,65000],
 						["10Rnd_762x51_Mag",nil,100],
 						["srifle_EBR_F",nil,70000],
 						["20Rnd_762x51_Mag",nil,100],
