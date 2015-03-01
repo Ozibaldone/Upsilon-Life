@@ -78,6 +78,8 @@ switch (_vehicle) do
 			case 7: {_color = "SUV-Bierre"};
 			case 8: {_color = "SUV-medicale"};
 			case 9: {_color = "SUV-TBS"};
+			case 10: {_color = "SUV-Ghost-Rider"};
+			case 11: {_color = "SUV-Flamme"};
 		};
 	};
 	
