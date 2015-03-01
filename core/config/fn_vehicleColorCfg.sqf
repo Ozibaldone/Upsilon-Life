@@ -35,7 +35,8 @@ switch (_vehicle) do
 			["textures\police\hailon-s-gendarmerie.jpg","cop"],
 			["textures\civil\hailon-s-Ken.jpg","civ"],
 			["textures\civil\hailon-rock.jpg","civ"],
-			["textures\civil\redbull.jpg","civ"]
+			["textures\civil\redbull.jpg","civ"],
+			["textures\civil\gopro.jpg","civ"]
 		];
 	};
 		
