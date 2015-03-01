@@ -175,7 +175,8 @@ switch (_vehicle) do
 			case 8: {_color = "iF-FTG"};
 			case 9: {_color = "iF-COLLINS"};
 			case 10: {_color = "if-Satanas"};
-			case 11: {_color = "IF-LES DALTON"};
+			case 11: {_color = "if-CamoBlack"};
+			case 12: {_color = "if-Dalton"};
 		};
 	};	
 
