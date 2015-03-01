@@ -349,9 +349,9 @@ switch (_shop) do
 			_return pushBack
 			["B_Heli_Transport_03_F",500000];
 			_return pushBack
-			["O_Truck_03_device_F",1300000];
+			["O_Truck_03_device_F",890000];
 			_return pushBack
-			["I_Heli_Transport_02_F",1300001];
+			["I_Heli_Transport_02_F",890000];
 		};
 	};	
 };
