@@ -316,7 +316,7 @@ switch (_shop) do
 		};
 	};
 
-	case "donator":
+	case "donateur_vehicule":
 	{
 		if((call life_donator) == 1) then
 		{
