@@ -211,7 +211,7 @@ life_illegal_items = [["heroinu",1200],["heroinp",2500],["cocaine",1500],["cocai
 */
 sell_array = 
 [
-	["apple",100],
+	["apple",65],
 	["heroinu",1850],
 	["heroinp",2650],
 	["salema",45],
@@ -232,7 +232,7 @@ sell_array =
 	["lockpick",75],
 	["pickaxe",750],
 	["redgull",200],
-	["peach",150],
+	["peach",68],
 	["cocaine",3000],
 	["cocainep",5000],
 	["diamond",750],
@@ -250,7 +250,7 @@ __CONST__(sell_array,sell_array);
 
 buy_array = 
 [
-	["apple",65],
+	["apple",100],
 	["rabbit",75],
 	["salema",55],
 	["ornate",50],
@@ -268,7 +268,7 @@ buy_array =
 	["pickaxe",1200],
 	["redgull",1500],
 	["fuelF",850],
-	["peach",68],
+	["peach",150],
 	["spikeStrip",2500],
 	["blastingcharge",35000],
 	["boltcutter",7500],
