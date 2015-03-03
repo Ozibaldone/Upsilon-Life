@@ -316,9 +316,9 @@ switch (_shop) do
 		};
 	};
 
-	case "donateur_vehicule":
+	case "don_car":
 	{
-		if((call life_donator) == 1) then
+		if((call life_donatorlevel) == 1) then
 		{
 			_return pushBack
 			["O_G_Offroad_01_F",22000];

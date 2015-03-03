@@ -40,7 +40,7 @@ switch (_side) do
 			_return set [count _return, ["Rebelop_6","Reb. Est","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]];
 		};
 		
-		if((call life_donator) > 0) then {
+		if((call life_donatorlevel) == 1) then {
 			_return = _return + [
 				["vip_1","Camp Donateur","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
 			];

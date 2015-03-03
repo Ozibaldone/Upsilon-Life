@@ -4899,7 +4899,7 @@ class Mission
 					vehicle="o_survivor_F";
 					leader=1;
 					skill=0.60000002;
-					init="this allowDamage false;    this enableSimulation false;    removeAllWeapons this;    this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu];    this addAction[""Concessionnaire Donateur"",life_fnc_vehicleShopMenu,[""donateur_vehicule"",civilian,""donateur_s_1"",""civ"",""Concessionnaire Donateur""]];    this addAction[""Garage"",  {   [[getPlayerUID player,playerSide,""Car"",player],""TON_fnc_getVehicles"",false,false] spawn life_fnc_MP;    life_garage_type = ""Car"";    createDialog ""Life_impound_menu"";    disableSerialization;    ctrlSetText[2802,""Fetching Vehicles....""];    life_garage_sp = ""donateur_g_1"";  }];    this addAction[""Mettre au garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];    this setVariable[""realname"", ""Véhicule Donateur""];";
+					init="this allowDamage false;    this enableSimulation false;    removeAllWeapons this;    this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu];    this addAction[""Concessionnaire Donateur"",life_fnc_vehicleShopMenu,[""don_car"",civilian,""donateur_s_1"",""civ"",""Concessionnaire Donateur""]];    this addAction[""Garage"",  {   [[getPlayerUID player,playerSide,""Car"",player],""TON_fnc_getVehicles"",false,false] spawn life_fnc_MP;    life_garage_type = ""Car"";    createDialog ""Life_impound_menu"";    disableSerialization;    ctrlSetText[2802,""Fetching Vehicles....""];    life_garage_sp = ""donateur_s_1"";  }];    this addAction[""Mettre au garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];    this setVariable[""realname"", ""Véhicule Donateur""];";
 				};
 			};
 		};
@@ -80616,8 +80616,8 @@ class Mission
 			position[]={10343.441,126.24586,18026.303};
 			name="VIP_1";
 			text="Camp VIP";
-			type="mil_objective";
-			colorName="ColorYellow";
+			type="Select";
+			colorName="ColorGreen";
 		};
 		class Item309
 		{
@@ -80642,14 +80642,14 @@ class Mission
 		};
 		class Item311
 		{
-			position[]={10345.267,126.88107,18012.559};
+			position[]={10345.958,127.00294,18008.131};
 			name="donateur_s_1";
 			type="Empty";
 			angle=-177.811;
 		};
 		class Item312
 		{
-			position[]={10361.591,127.14906,17999.609};
+			position[]={10374.308,126.28296,18000.162};
 			name="donateur_g_1";
 			type="Empty";
 			angle=-182.961;
