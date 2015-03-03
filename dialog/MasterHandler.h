@@ -29,4 +29,3 @@
 #include "jail_time.hpp"
 #include "compensate.hpp" 
 #include "channel.hpp"
-#include "craft.hpp"

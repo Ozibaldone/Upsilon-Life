@@ -127,7 +127,6 @@ class Life_Client_Core
 		class surrender {};
 		class robATM {};
 		class robShops {};
-		class craftAction {};
 	};
 	
 	class Housing
@@ -168,7 +167,6 @@ class Life_Client_Core
 		class vehicleWeightCfg {};
 		class houseConfig {};
 		class seizeCfg {};
-		class craftCfg {};
 		
 		//Clothing Store Configs
 		class clothing_cop {};
@@ -200,9 +198,6 @@ class Life_Client_Core
 		class settingsMenu {};
 		class settingsInit {};
 		class cellphone2 {};
-		class craft {};
-		class craft_update {};
-		class craft_updateFilter {};
 		class AAN {};
 	};
 	
