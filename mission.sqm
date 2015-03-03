@@ -4899,7 +4899,7 @@ class Mission
 					vehicle="o_survivor_F";
 					leader=1;
 					skill=0.60000002;
-					init="this allowDamage false;    this enableSimulation false;    removeAllWeapons this;    this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu];    this addAction[""Concessionnaire Donateur"",life_fnc_vehicleShopMenu,[""don_car"",civilian,""donateur_s_1"",""civ"",""Concessionnaire Donateur""]];    this addAction[""Garage"",  {   [[getPlayerUID player,playerSide,""Car"",player],""TON_fnc_getVehicles"",false,false] spawn life_fnc_MP;    life_garage_type = ""Car"";    createDialog ""Life_impound_menu"";    disableSerialization;    ctrlSetText[2802,""Fetching Vehicles....""];    life_garage_sp = ""donateur_s_1"";  }];    this addAction[""Mettre au garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];    this setVariable[""realname"", ""Véhicule Donateur""];";
+					init="this allowDamage false;    this enableSimulation false;    removeAllWeapons this;    this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu];    this addAction[""Concessionnaire Donateur"",life_fnc_vehicleShopMenu,[""don_car"",civilian,""donateur_s_1"",""civ"",""Concessionnaire Donateur""]];    this addAction[""Garage"",  {   [[getPlayerUID player,playerSide,""Car"",player],""TON_fnc_getVehicles"",false,false] spawn life_fnc_MP;    life_garage_type = ""Car"";    createDialog ""Life_impound_menu"";    disableSerialization;    ctrlSetText[2802,""Fetching Vehicles....""];    life_garage_sp = ""donateur_g_1"";  }];    this addAction[""Mettre au garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];    this setVariable[""realname"", ""Véhicule Donateur""];";
 				};
 			};
 		};
