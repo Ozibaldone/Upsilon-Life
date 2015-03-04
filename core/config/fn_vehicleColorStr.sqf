@@ -182,6 +182,7 @@ switch (_vehicle) do
 			case 10: {_color = "if-Satanas"};
 			case 11: {_color = "if-CamoBlack"};
 			case 12: {_color = "if-Dalton"};
+			case 13: {_color = "if-LFG"};
 		};
 	};	
 
