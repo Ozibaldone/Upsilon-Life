@@ -26,7 +26,7 @@ switch (_vehicle) do
 			case 7: {_color = "TT-Pornup"};
 			case 8: {_color = "TT-ghost"};
 			case 9: {_color = "TT-gendarmerie"};
-			case 10: {_color = "TT-medicale"};
+			case 10: {_color = "TT-EMS"};
 		};
 	};
 	
@@ -76,7 +76,7 @@ switch (_vehicle) do
 			case 5: {_color = "SUV-PTT"};
 			case 6: {_color = "SUV-upsilonTv"};
 			case 7: {_color = "SUV-Bierre"};
-			case 8: {_color = "SUV-medicale"};
+			case 8: {_color = "SUV-EMS"};
 			case 9: {_color = "SUV-TBS"};
 			case 10: {_color = "SUV-Ghost-Rider"};
 			case 11: {_color = "SUV-Flamme"};
@@ -91,7 +91,7 @@ switch (_vehicle) do
 			case 1: {_color = "TotalUp"};
 			case 2: {_color = "InterUp"};
 			case 3: {_color = "PornUp"};
-			case 3: {_color = "boxe-medicale"};
+			case 3: {_color = "boxe-EMS"};
 		};
 	};
 	
@@ -147,7 +147,7 @@ switch (_vehicle) do
 			case 11: {_color = "Vrana"};
 			case 12: {_color = "Waves Blue"};
 			case 13: {_color = "Rebel Digital"};
-			case 14: {_color = "medic"};
+			case 14: {_color = "EMS"};
 		};
 	};
 	
