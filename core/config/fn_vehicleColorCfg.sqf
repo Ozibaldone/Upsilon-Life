@@ -167,7 +167,8 @@ switch (_vehicle) do
 			["\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_indp_co.paa","donate"],
 			["\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_opfor_co.paa","reb"],
 			["textures\medic\orca-samu.jpg","med"],
-			["textures\police\orca police black.jpg","cop"]
+			["textures\police\orca police black.jpg","cop"],
+			["textures\teamrebelle\orca-tbs.jpg","reb"]
 		];
 	};
 

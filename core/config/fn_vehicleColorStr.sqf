@@ -161,6 +161,7 @@ switch (_vehicle) do
 			case 3: {_color = "Desert Digi"};
 			case 4: {_color = "EMS ORCA"};
 			case 5: {_color = "ORCA camo-black"};
+			case 6: {_color = "ORCA TBS"};
 		};
 	};
 
