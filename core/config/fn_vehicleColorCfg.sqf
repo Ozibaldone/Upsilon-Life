@@ -209,7 +209,8 @@ switch (_vehicle) do
 			["textures\rebel\reb_hunter_red_front7.jpg","reb","textures\rebel\reb_hunter_red_back.jpg"],
 			["textures\police\cop_hunter_red_front.jpg","cop","textures\police\cop_hunter_red_back2.jpg"],
 			["#(argb,8,8,3)color(0.05,0.05,0.05,1)","fed"],
-			["textures\teamrebelle\hunt-ftg-front.jpg","reb","textures\teamrebelle\hunt-ftg-back.jpg"]
+			["textures\teamrebelle\hunt-ftg-front.jpg","reb","textures\teamrebelle\hunt-ftg-back.jpg"],
+			["textures\police\cop_BRINKS1.jpg","cop","textures\police\BRINKS2.jpg"]
 		];
 	};
 	

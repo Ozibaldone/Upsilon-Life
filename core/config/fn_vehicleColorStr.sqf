@@ -200,6 +200,7 @@ switch (_vehicle) do
 			case 7: {_color = "ht-Cop"};
 			case 8: {_color = "Fed"};
 			case 9: {_color = "ht-FTG"};
+			case 9: {_color = "brinks Upsilon"};
 		};
 	};
 	
