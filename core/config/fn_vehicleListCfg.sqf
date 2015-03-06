@@ -21,7 +21,7 @@ switch (_shop) do
 			["C_Kart_01_Vrana_F",15000]
 		];
 	};
-	case "med_car":
+	case "med_shop":
 	{
 		_return = [
 			["C_Offroad_01_F",13500],
