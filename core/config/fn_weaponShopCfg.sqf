@@ -61,8 +61,8 @@ switch(_shop) do
 						["FirstAidKit",nil,150],
 						["Medikit",nil,500],
 						["NVGoggles",nil,1000],
-						["B_FieldPack_ocamo",nil,3000]
-
+						["B_FieldPack_ocamo",nil,3000],
+						["RoadCone_L_F",nil,100]
 					]
 				];
 			};
