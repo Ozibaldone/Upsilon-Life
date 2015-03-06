@@ -23,7 +23,17 @@ switch (typeOf _vehicle) do
 {
 	case "C_Offroad_01_F":
 	{
-		_lightleft lightAttachObject [_vehicle, [-0.37, 0.0, 0.56]];
+		_lightright lightAttachObject [_vehicle, [0.37, 0.0, 0.56]];
+	};
+	
+	case "C_SUV_01_F":
+	{
+		_lightright lightAttachObject [_vehicle, [0.37, 0.0, 0.56]];
+	};
+	
+	case "C_Van_01_box_F":
+	{
+		_lightright lightAttachObject [_vehicle, [0.37, 0.0, 0.56]];
 	};
 };
 
@@ -42,6 +52,16 @@ _lightright setLightAmbient [0.1,0.1,1];
 switch (typeOf _vehicle) do
 {
 	case "C_Offroad_01_F":
+	{
+		_lightright lightAttachObject [_vehicle, [0.37, 0.0, 0.56]];
+	};
+	
+	case "C_SUV_01_F":
+	{
+		_lightright lightAttachObject [_vehicle, [0.37, 0.0, 0.56]];
+	};
+	
+	case "C_Van_01_box_F":
 	{
 		_lightright lightAttachObject [_vehicle, [0.37, 0.0, 0.56]];
 	};
