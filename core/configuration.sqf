@@ -24,7 +24,7 @@ life_bail_paid = false;
 life_impound_inuse = false;
 life_action_inUse = false;
 life_spikestrip = ObjNull;
-life_respawn_timer = 0.40; //Scaled in minutes
+life_respawn_timer = 1.00; //Scaled in minutes
 life_knockout = false;
 life_interrupted = false;
 life_respawned = false;
@@ -112,7 +112,7 @@ switch (playerSide) do
 /*
 	Master Array of items?
 */
-life_vShop_rentalOnly = ["B_MRAP_01_hmg_F","B_G_Offroad_01_armed_F"];
+life_vShop_rentalOnly = ["",""];
 __CONST__(life_vShop_rentalOnly,life_vShop_rentalOnly); //These vehicles can never be bought and only 'rented'. Used as a balancer & money sink. If you want your server to be chaotic then fine.. Remove it..
 
 life_inv_items = 
