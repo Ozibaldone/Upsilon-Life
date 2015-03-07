@@ -240,7 +240,6 @@ switch (_code) do
 		};
 	};
 	
-	
 	//U Key
 	case 22:
 	{

@@ -75290,6 +75290,14 @@ class Mission
 			skill=0.60000002;
 			init="this allowDamage false;";
 		};
+		class Item22000000000
+		{
+			position[]={8118.9214,76.98774,22613.781};
+			name="sand_1";
+			text="Mine de sable";
+			type="mil_triangle";
+			colorName="ColorBrown";
+		};
 		class Item7160
 		{
 			position[]={3247.3965,2.0418396,12946.209};
