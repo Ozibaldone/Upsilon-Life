@@ -4370,6 +4370,14 @@
 		</Key>
 	</Package>
 	<Package name="Shop_Strings">
+		<Key ID="STR_Shop_NotaMed">
+			<Original>You need to be a medic to use this store!</Original>
+			<English>You need to be a medic to use this store!</English>
+			<German>Du musst ein Notarzt sein, um diesen Shop nutzen zu können!</German>
+			<French>Vous devez être un medic pour utiliser ce magasin!</French>
+			<Italian>Devi essere un medic per utilizzare questo negozio!</Italian>
+			<Portuguese>Você tem que ser medic para usar essa loja!</Portuguese>
+		</Key>
 		<Key ID="STR_Shop_ATMRobbed">
 			<Original>Because you robbed the bank you can't use the ATM for 5 minutes.</Original>
 			<German>Da du die Bank ausgeraubt hast, kannst du für 5 Minuten keine Bankomaten benutzen.</German>
