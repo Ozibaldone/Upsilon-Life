@@ -262,10 +262,10 @@ class Mission
 		startWind=0.14999999;
 		startWindDir=60;
 		startGust=0.14999999;
-		forecastWeather=0.75;
-		forecastWind=1;
+		forecastWeather=0.34999999;
+		forecastWind=0.14999999;
 		forecastWaves=0;
-		forecastGust=1;
+		forecastGust=0.14999999;
 		forecastWindDir=90;
 		wavesForced=1;
 		windForced=1;
@@ -75289,14 +75289,6 @@ class Mission
 			leader=1;
 			skill=0.60000002;
 			init="this allowDamage false;";
-		};
-		class Item22000000000
-		{
-			position[]={8118.9214,76.98774,22613.781};
-			name="sand_1";
-			text="Mine de sable";
-			type="mil_triangle";
-			colorName="ColorBrown";
 		};
 		class Item7160
 		{
