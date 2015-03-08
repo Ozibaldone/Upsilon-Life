@@ -482,9 +482,9 @@ switch(_shop) do
 						["srifle_GM6_camo_F",nil,400000],
 						["5Rnd_127x108_Mag",nil,500],
 						["5Rnd_127x108_APDS_Mag",nil,4000],
-                        ["LMG_Mk200_F 75000",nil,75000],
-                        ["200Rnd_65x39_cased_Box",nil,200],
-                        ["200Rnd_65x39_cased_Box_Tracer",nil,200]
+                        			["LMG_Mk200_F 75000",nil,75000],
+                        			["200Rnd_65x39_cased_Box",nil,200],
+                				["200Rnd_65x39_cased_Box_Tracer",nil,200]
 					]
 				];
 			};
