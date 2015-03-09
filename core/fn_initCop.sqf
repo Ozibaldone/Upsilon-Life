@@ -29,12 +29,3 @@ player setVariable["rank",(__GETC__(life_coplevel)),true];
 waitUntil{!isNull (findDisplay 38500)}; //Wait for the spawn selection to be open.
 waitUntil{isNull (findDisplay 38500)}; //Wait for the spawn selection to be done.
 
-[] spawn
-{
-while {true} do
-	{
-		waitUntil {uniform player == "U_MillerBody"};
-		player setObjectTextureGlobal [0,"textures\police\uniform_bleu.jpg"];
-		waitUntil {uniform player != "U_MillerBody"};
-	};
-};
