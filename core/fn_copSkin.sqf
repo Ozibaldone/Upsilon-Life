@@ -19,7 +19,7 @@ if (playerSide == west) then {
 	};
 
 	if ((_coplevel > 17) && (uniform player == "U_B_CombatUniform_mcam_worn") ) then {
-		player setObjectTextureGlobal [0, "textures\Police\generale.paa"]; // this is for all whitelisted cops above the rank of 2 on the database (these numbers can be adjusted as needed)
+		player setObjectTextureGlobal [0, "textures\Police\Uniforme_raid.jpg"]; // this is for all whitelisted cops above the rank of 2 on the database (these numbers can be adjusted as needed)
 	};
 
 	if ((_coplevel > 21) && (uniform player == "U_B_CombatUniform_mcam") ) then {
