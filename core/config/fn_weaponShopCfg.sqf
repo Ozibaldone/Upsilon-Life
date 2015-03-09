@@ -490,4 +490,51 @@ switch(_shop) do
 			};
 		};
 	};
+	
+	case "lfg":
+	{
+		switch(true) do
+		{
+			case ((call license_civ_lfg) == 0): {"Vous n'êtes faite parti de la famille  LFG !"};
+			case ((call license_civ_lfg) == 1):
+			{
+				["Magazin lfg Tier 1",
+					[
+						["arifle_Mk20_F",nil,33000],
+						["30Rnd_556x45_Stanag",nil,150],
+						["30Rnd_556x45_Stanag_Tracer_Green",nil,150],
+						["arifle_Katiba_C_F",nil,35000],
+						["arifle_Katiba_F",nil,37000],
+						["30Rnd_65x39_caseless_green",nil,100],
+						["30Rnd_65x39_caseless_green_mag_Tracer",nil,175],
+						["arifle_MXC_F",nil,50000],
+						["arifle_MX_F",nil,50000],
+						["arifle_MX_SW_F",nil,65000],
+						["100Rnd_65x39_caseless_mag",nil,200],
+						["100Rnd_65x39_caseless_mag_Tracer",nil,200],
+						["arifle_MXM_F",nil,50000],
+						["30Rnd_65x39_caseless_mag",nil,100],
+						["30Rnd_65x39_caseless_mag_Tracer",nil,100],
+						["srifle_DMR_01_F",nil,65000],
+						["10Rnd_762x51_Mag",nil,100],
+						["srifle_EBR_F",nil,70000],
+						["20Rnd_762x51_Mag",nil,100],
+						["LMG_Zafir_F",nil,80000],
+						["150Rnd_762x51_Box",nil,60],
+						["150Rnd_762x51_Box_Tracer",nil,160],
+						["srifle_LRR_F",nil,250000],
+						["srifle_LRR_camo_F",nil,250000],
+						["7Rnd_408_Mag",nil,200],
+						["srifle_GM6_F",nil,400000],
+						["srifle_GM6_camo_F",nil,400000],
+						["5Rnd_127x108_Mag",nil,500],
+						["5Rnd_127x108_APDS_Mag",nil,4000],
+                        			["LMG_Mk200_F 75000",nil,75000],
+                        			["200Rnd_65x39_cased_Box",nil,200],
+                				["200Rnd_65x39_cased_Box_Tracer",nil,200]
+					]
+				];
+			};
+		};
+	};
 };

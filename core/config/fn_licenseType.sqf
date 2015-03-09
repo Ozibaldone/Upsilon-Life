@@ -42,6 +42,7 @@ switch (_mode) do
 			case "home": {_var = "license_civ_home"};
 			case "delinquant": {_var = "license_civ_delinquant"};
 			case "terroriste": {_var = "license_civ_terroriste"};
+			case "lfg": {_var = "license_civ_lfg"};
 			default {_var = ""};
 		};
 	};
@@ -76,6 +77,7 @@ switch (_mode) do
 			case "license_civ_home": {_var = "home"};
 			case "license_civ_delinquant": {_var = "delinquant"};
 			case "license_civ_terroriste": {_var = "terroriste"};
+			case "license_civ_lfg": {_var = "lfg"};
 			default {_var = ""};
 		};
 	};

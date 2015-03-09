@@ -87,4 +87,5 @@ switch (_var) do
 	case "license_civ_home": {(localize "STR_License_Home")};
 	case "license_civ_delinquant": {"Entrainement Rebelle"};
 	case "license_civ_terroriste": {"Entrainement Terroriste"};
+	case "license_civ_lfg": {"Legend French Gamers"};
 };

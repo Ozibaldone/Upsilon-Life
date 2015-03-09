@@ -353,7 +353,46 @@ switch (_shop) do
 			_return pushBack
 			["I_Heli_Transport_02_F",890000];
 		};
-	};	
+	};
+
+	case "lfg_car":
+	{
+		if((call license_civ_lfg) == 1) then
+		{
+			_return pushBack
+			["O_G_Offroad_01_F",22000];
+			_return pushBack
+			["O_G_Offroad_01_armed_F",430000];
+			_return pushBack
+			["B_MRAP_01_F",286000];
+			_return pushBack
+			["O_MRAP_02_F",286000];
+			_return pushBack
+			["I_MRAP_03_F",286000];
+			_return pushBack
+			["B_Heli_Light_01_F",286000];
+			_return pushBack
+			["O_Heli_Light_02_unarmed_F",322000];
+			_return pushBack
+			["B_MRAP_01_hmg_F",700000];
+			_return pushBack
+			["O_MRAP_02_hmg_F",700000];
+			_return pushBack
+			["I_MRAP_03_hmg_F",700000];
+//			_return pushBack
+//			["B_Heli_Light_01_armed_F",600000];
+//			_return pushBack
+//			["O_Heli_Light_02_F",8500000];
+			_return pushBack
+			["B_Heli_Transport_03_unarmed_F",350000];
+			_return pushBack
+			["B_Heli_Transport_03_F",500000];
+			_return pushBack
+			["O_Truck_03_device_F",890000];
+			_return pushBack
+			["I_Heli_Transport_02_F",890000];
+		};
+	};		
 };
 
 _return;

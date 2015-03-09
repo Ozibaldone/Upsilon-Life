@@ -195,7 +195,8 @@ life_licenses =
 	["license_civ_cement","civ"],
 	["license_med_air","med"],
 	["license_civ_delinquant","civ"],
-	["license_civ_terroriste","civ"]
+	["license_civ_terroriste","civ"],
+	["license_civ_lfg","civ"]
 ];
 
 //Setup License Variables
