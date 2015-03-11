@@ -81943,6 +81943,26 @@ class Mission
 			colorName="ColorUNKNOWN";
 		};
 	};
+	class Sensors
+	{
+		items=1;
+		class Item0
+		{
+			position[]={3647.5715,10.206903,13108.277};
+			activationBy="CIV";
+			repeating=1;
+			interruptable=1;
+			type="SWITCH";
+			age="UNKNOWN";
+			name="place";
+			expCond="this && (local player) && (vehicle player in thislist)";
+			expActiv="1 fademusic 1; playmusic 'place';";
+			expDesactiv="1 fademusic 0;";
+			class Effects
+			{
+			};
+		};
+	};
 };
 class Intro
 {
