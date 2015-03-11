@@ -29,3 +29,23 @@ player setVariable["rank",(__GETC__(life_coplevel)),true];
 [] call life_fnc_equipGear;
 waitUntil{!isNull (findDisplay 38500)}; //Wait for the spawn selection to be open.
 waitUntil{isNull (findDisplay 38500)}; //Wait for the spawn selection to be done.
+
+[] spawn
+{
+while {true} do
+	{
+		waitUntil {uniform player == "U_Rangemaster"};
+		player setObjectTextureGlobal [0,"textures\police/base.paa"];
+		waitUntil {uniform player != "U_Rangemaster"};
+	};
+};
+
+[] spawn
+{
+while {true} do
+	{
+		waitUntil {uniform player == "U_B_CombatUniform_mcam_tshirt"};
+		player setObjectTextureGlobal [0,"textures\police/Uniforme_raid.jpg"];
+		waitUntil {uniform player != "U_B_CombatUniform_mcam_tshirt"};
+	};
+};
