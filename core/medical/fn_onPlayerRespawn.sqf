@@ -23,6 +23,13 @@ _unit setVariable["transporting",FALSE,TRUE]; //Again why the fuck am I setting 
 _unit setVariable["steam64id",(getPlayerUID player),true]; //Reset the UID.
 _unit setVariable["realname",profileName,true]; //Reset the players name.
 
+if(playerSide == west) then {
+	if(((call life_coplevel) < 1) && ((call life_adminlevel) == 0)) then {
+		["Vous n'êtes pas policier",false,true] call BIS_fnc_endMission;
+		sleep 60;
+	};
+};
+
 _unit addRating 9999999999999999; //Set our rating to a high value, this is for a ARMA engine thing.
 player playMoveNow "amovppnemstpsraswrfldnon";
 

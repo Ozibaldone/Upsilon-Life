@@ -11,7 +11,7 @@ life_use_atm = TRUE;
 life_hunger = 100;
 life_thirst = 100;
 life_carryWeight = 0;
-life_cash = 0; //Make sure we don't get our cash back.
+life_hypcash = 0; //Make sure we don't get our cash back.
 life_respawned = false;
 player playMove "amovpercmstpsnonwnondnon";
 
@@ -32,7 +32,7 @@ switch(playerSide) do
 		_handle = [] spawn life_fnc_civLoadout;
 	};
 	case independent: {
-		_handle = [] spawn life_fnc_medicLoadout;
+		_handle = [] spawn life_fnc_resetMedic;
 	};
 	waitUntil {scriptDone _handle};
 };
@@ -43,7 +43,8 @@ if(!isNull life_corpse) then {
 	life_corpse setVariable["Revive",TRUE,TRUE];
 	_containers = nearestObjects[life_corpse,["WeaponHolderSimulated"],5];
 	{deleteVehicle _x;} foreach _containers; //Delete the containers.
-	hideBody life_corpse;
+	// hideBody life_corpse;
+	deleteVehicle life_corpse;
 };
 
 //Destroy our camera...

@@ -24,6 +24,7 @@ if(visibleMap) then {
 		_marker = createMarkerLocal [format["%1_dead_marker",_x],visiblePosition _x];
 		_marker setMarkerColorLocal "ColorRed";
 		_marker setMarkerTypeLocal "loc_Hospital";
+		_marker setMarkerSizeLocal [2, 2];
 		_marker setMarkerTextLocal format["%1",(_x getVariable["name","Unknown Player"])];
 		_markers pushBack _marker;
 	} foreach _units;

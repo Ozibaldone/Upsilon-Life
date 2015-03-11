@@ -40,12 +40,24 @@ _unit spawn
 	_RespawnBtn = ((findDisplay 7300) displayCtrl 7302);
 	_Timer = ((findDisplay 7300) displayCtrl 7301);
 	
-	_maxTime = time + (life_respawn_timer * 60);
+//	_maxTime = time + (life_respawn_timer * 60);
+	_maxTime = time + (life_respawn_timer);
 	_RespawnBtn ctrlEnable false;
 	waitUntil {_Timer ctrlSetText format[localize "STR_Medic_Respawn",[(_maxTime - time),"MM:SS.MS"] call BIS_fnc_secondsToString]; 
-	round(_maxTime - time) <= 0 OR isNull _this};
+//	round(_maxTime - time) <= 0 OR isNull _this};
+	round(_maxTime - time) <= 0 || isNull _this || Life_request_timer};
+
+	if (Life_request_timer) then {
+		_maxTime = time + (life_respawn_timer * 20);
+		waitUntil {_Timer ctrlSetText format[localize "STR_Medic_Respawn",[(_maxTime - time),"MM:SS.MS"] call BIS_fnc_secondsToString]; 
+		round(_maxTime - time) <= 0 || isNull _this};
+	};
+	Life_request_timer = false; //resets increased respawn timer
+
 	_RespawnBtn ctrlEnable true;
 	_Timer ctrlSetText localize "STR_Medic_Respawn_2";
+
+
 };
 
 [] spawn life_fnc_deathScreen;
@@ -81,9 +93,9 @@ if(side _killer == west && playerSide != west) then {
 	[[4],"life_fnc_removeLicenses",_unit,FALSE] spawn life_fnc_MP;
 		};
 	//Did I rob the federal reserve?
-	if(!life_use_atm && {life_cash > 0}) then {
-		[format[localize "STR_Cop_RobberDead",[life_cash] call life_fnc_numberText],"life_fnc_broadcast",true,false] spawn life_fnc_MP;
-		life_cash = 0;
+	if(!life_use_atm && {life_hypcash > 0}) then {
+		[format[localize "STR_Cop_RobberDead",[life_hypcash] call life_fnc_numberText],"life_fnc_broadcast",true,false] spawn life_fnc_MP;
+		life_hypcash = 0;
 	};
 };
 
@@ -97,7 +109,7 @@ waitUntil {scriptDone _handle};
 life_hunger = 100;
 life_thirst = 100;
 life_carryWeight = 0;
-life_cash = 0;
+life_hypcash = 0;
 
 [] call life_fnc_hudUpdate; //Get our HUD updated.
 [[player,life_sidechat,playerSide],"TON_fnc_managesc",false,false] spawn life_fnc_MP;
