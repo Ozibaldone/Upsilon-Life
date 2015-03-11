@@ -35,7 +35,7 @@ life_frozen = false;
 life_markers = false;
 life_vehgod = false;
 life_channel_send = true;
-Life_request_timer = false;
+
 
 //Persistent Saving
 __CONST__(life_save_civ,TRUE); //Save weapons for civs?
