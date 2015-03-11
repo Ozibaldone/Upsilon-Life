@@ -324,6 +324,7 @@ class Life_Client_Core
 		class arrestDialog_Arrest {}; //changed
 		class seizePlayerWeapon {};
 		class seizePlayerWeaponAction {};
+		class equipGear {};
 	};
 	
 	class Gangs
