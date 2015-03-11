@@ -8,7 +8,7 @@ systemChat format["Reboot toutes les 6 Heures", _rscLayer];
 [] spawn {
 	sleep 5;
 	_statusText = "Reboot toutes les 6 Heures";
-	_counter = 180;
+	_counter = 160;
 	_timeSinceLastUpdate = 0;
 	while {true} do
 	{
