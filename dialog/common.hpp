@@ -73,6 +73,9 @@ class Life_RscListNBox
 	sizeEx = "(			(			(			((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 1)";
 	color[] = {0.95,0.95,0.95,1};
 	colorText[] = {1,1,1,1.0};
+	colorPicture[] = {1,1,1,1};
+	colorPictureSelected[] = {1,1,1,1};
+	colorPictureDisabled[] = {1,1,1,1};  
 	colorDisabled[] = {1,1,1,0.25};
 	colorScrollbar[] = {0.95,0.95,0.95,1};
 	colorSelect[] = {0,0,0,1};
