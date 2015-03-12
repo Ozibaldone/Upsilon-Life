@@ -157,6 +157,15 @@ switch (_code) do
 		};
 	};
 	
+	// ANTI ² PAR SEEKER_14
+	case 41:
+    {
+		if((_code in (actionKeys "SelectAll") || _code in (actionKeys "ForceCommandingMode"))) then  
+		{
+			[] call life_fnc_p_openMenu;
+		};
+	};
+	
 	//T Key (Trunk)
 	case 20:
 	{
