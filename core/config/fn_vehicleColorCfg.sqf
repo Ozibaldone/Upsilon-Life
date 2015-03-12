@@ -266,7 +266,6 @@ switch (_vehicle) do
 	
 	case "O_Plane_CAS_02_F":
 	{
-	
 		_ret = 
 		[
 			["textures\police\chasse-front.jpg","cop","textures\police\chasse-back.jpg"],
