@@ -40,9 +40,9 @@ _units = _units - [player];
 		_distance = _pos distance player;
 		if(count _sPos > 1 && {_distance < 15}) then {
 			_text = switch (true) do {
-				case ((goggles _x) in _goggles): {format["<t color='#000000'>Masked Player</t>"];};
-				case ((headgear _x) in _headgear): {format["<t color='#000000'>Masked Player</t>"];};
-				case ((uniform _x) in _uniform): {format["<t color='#000000'>Masked Player</t>"];};
+				case ((goggles _x) in _goggles): {format["<t color='#000000'></t>"];};
+				case ((headgear _x) in _headgear): {format["<t color='#000000'></t>"];};
+				case ((uniform _x) in _uniform): {format["<t color='#000000'></t>"];};
 				case (_x in (units grpPlayer) && playerSide == civilian): {format["<t color='#00FF00'>%1</t>",(_x getVariable ["realname",name _x])];};
 				case (!isNil {(_x getVariable "rank")}): {format["<img image='%1' size='1'></img> %2",switch ((_x getVariable "rank")) do {
 					case 2: {"\a3\ui_f\data\gui\cfg\Ranks\corporal_gs.paa"}; 
