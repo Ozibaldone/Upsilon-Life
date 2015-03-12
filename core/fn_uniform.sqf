@@ -6,17 +6,17 @@
 
     #define __GETC__(var) (call var)
     
-    if (playerSide != independent) then {
+    if (playerSide !== west) then {
         if ((uniform player) == "U_Rangemaster")  then {
-		player setObjectTextureGlobal [0, "textures\police\militaire_du_rang.paa"]; //Militaire du Rang - Cop
+		player setObjectTextureGlobal [0, "textures\police\base.paa"]; //Militaire du Rang - Cop
         };		
-    if (playerSide != independent) then {
+    if (playerSide !== west) then {
 		if ((uniform player) == "U_B_CTRG_1")  then {
-            player setObjectTextureGlobal [0, "textures\police\sous_officier_superieur.paa"]; //Sous-Officier Superieur - Cop
+            player setObjectTextureGlobal [0, "textures\police\uniform_bleu.jpg"]; //Sous-Officier Superieur - Cop
 		};
-    if (playerSide != independent) then {
+    if (playerSide !== west) then {
 		if ((uniform player) == "U_B_CTRG_2")  then {
-            player setObjectTextureGlobal [0, "textures\police\generale.paa"]; //Générale - Cop
+            player setObjectTextureGlobal [0, "textures\police\Uniforme_raid.jpg"]; //Générale - Cop
         };
     } else {
         if ((uniform player) == "U_Rangemaster")  then {
