@@ -138,10 +138,11 @@ switch (_code) do
 			};
 		};
 	};
-
-	case 25:
+	
+	//F7
+	case 65:
 	{
-		if(_shift) then
+		if(!_alt && !_ctrlKey && !dialog) then
 		{
 			if (soundVolume != 1) then 
 			{
