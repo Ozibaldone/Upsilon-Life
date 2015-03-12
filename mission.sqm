@@ -81945,21 +81945,88 @@ class Mission
 	};
 	class Sensors
 	{
-		items=1;
+		items=4;
 		class Item0
 		{
-			position[]={3647.5715,10.206903,13108.277};
+			position[]={3647.79,10.20529,13109.181};
+			a=17;
+			b=23;
+			angle=92.883003;
+			rectangular=1;
 			activationBy="CIV";
 			repeating=1;
 			interruptable=1;
 			type="SWITCH";
 			age="UNKNOWN";
 			name="place";
-			expCond="this && (local player) && (vehicle player in thislist)";
-			expActiv="1 fademusic 1; playmusic 'place';";
+			expCond="this && (local player) && (vehicle player in thisList)";
+			expActiv="1 fademusic 1; playmusic ""place"";";
 			expDesactiv="1 fademusic 0;";
 			class Effects
 			{
+				track="track1";
+				titleType="TEXT";
+				title="Bienvenue sur la place de Kavala";
+			};
+		};
+		class Item1
+		{
+			position[]={11592.736,23.68648,11927.472};
+			angle=120;
+			rectangular=1;
+			activationBy="CIV";
+			interruptable=1;
+			type="SWITCH";
+			age="UNKNOWN";
+			name="rebelle";
+			expCond="this && (local player) && (vehicle player in thisList)";
+			expActiv="1 fademusic 1; playmusic ""rebelle"";";
+			expDesactiv="1 fademusic 0;";
+			class Effects
+			{
+				track="track2";
+				titleType="TEXT";
+				title="Bienvenue au Camp Rebelle Sud. Le FREEKILL est interdit !";
+			};
+		};
+		class Item2
+		{
+			position[]={9195.7764,14.737261,21639.309};
+			angle=56.678299;
+			rectangular=1;
+			activationBy="CIV";
+			interruptable=1;
+			type="SWITCH";
+			age="UNKNOWN";
+			name="rebelle_1";
+			expCond="this && (local player) && (vehicle player in thisList)";
+			expActiv="1 fademusic 1; playmusic ""rebelle"";";
+			expDesactiv="1 fademusic 0;";
+			class Effects
+			{
+				track="track2";
+				titleType="TEXT";
+				title="Bienvenue au Camp Rebelle Nord. Le FREEKILL est interdit !";
+			};
+		};
+		class Item3
+		{
+			position[]={21928.229,17.784943,20977.021};
+			angle=42.770302;
+			rectangular=1;
+			activationBy="CIV";
+			interruptable=1;
+			type="SWITCH";
+			age="UNKNOWN";
+			name="rebelle_2";
+			expCond="this && (local player) && (vehicle player in thisList)";
+			expActiv="1 fademusic 1; playmusic ""rebelle"";";
+			expDesactiv="1 fademusic 0;";
+			class Effects
+			{
+				track="track2";
+				titleType="TEXT";
+				title="Bienvenue au Camp Rebelle Est. Le FREEKILL est interdit !";
 			};
 		};
 	};

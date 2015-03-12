@@ -39,6 +39,23 @@ class CfgFunctions
 	#include "Functions.h"
 };
 
+class cfgMusic
+{
+	tracks[]={};
+	
+	class track1
+	{
+		name="place";
+		sound[] = {\sounds\place.ogg, db+10, 1.0};
+	};
+	
+	class track2
+	{
+		name="rebelle";
+		sound[] = {\sounds\rebelle.ogg, db+10, 1.0};
+	};
+};
+
 class CfgSounds
 {
 	sounds[] = {};
