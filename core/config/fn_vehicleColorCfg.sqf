@@ -255,9 +255,18 @@ switch (_vehicle) do
 			["textures\police\strider-gendarmerie.jpg","cop"]
 		];
 	};
+	case "O_MRAP_02_hmg_F":
+	{
+		_ret = 
+		[
+			["textures\police\cop_hunter_red_front.jpg","cop","textures\police\cop_hunter_red_back.jpg"]
+		];
+	};
+	
 	
 	case "O_Plane_CAS_02_F":
 	{
+	
 		_ret = 
 		[
 			["textures\police\chasse-front.jpg","cop","textures\police\chasse-back.jpg"],
