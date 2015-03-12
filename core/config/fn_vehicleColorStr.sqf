@@ -274,6 +274,14 @@ switch (_vehicle) do
 			case 4: {_color = "AV-Vito"};
 		};
 	};
+	case "O_MRAP_02_hmg_F":
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "gendarmerie"};
+
+		};
+	};
 };
 
 _color;
