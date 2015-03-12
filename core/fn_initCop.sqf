@@ -40,12 +40,3 @@ while {true} do
 	};
 };
 
-[] spawn
-{
-while {true} do
-	{
-		waitUntil {uniform player == "U_B_CombatUniform_mcam_tshirt"};
-		player setObjectTextureGlobal [0,"textures\police/Uniforme_raid.jpg"];
-		waitUntil {uniform player != "U_B_CombatUniform_mcam_tshirt"};
-	};
-};
