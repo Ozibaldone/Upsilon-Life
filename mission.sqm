@@ -4891,7 +4891,7 @@ class Mission
 					vehicle="B_RangeMaster_F";
 					leader=1;
 					skill=0.60000002;
-					init="this enableSimulation false;    this allowDamage false;    this addAction[format[""%1 ($%2)"",[""license_med_air""] call life_fnc_varToStr,[([""mair""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""mair"",0,false,false,"""",' !license_med_air && playerSide == independent '];    this addAction[""Helicopter Shop"",life_fnc_vehicleShopMenu,[""med_air_hs"",independent,""med_airs_101"",""med"",""Kavala Hosptial""]];    this setObjectTexture [0,""textures\medic_uniform.jpg""];";
+					init="this enableSimulation false;      this allowDamage false;      this addAction[format[""%1 ($%2)"",[""license_med_air""] call life_fnc_varToStr,[([""mair""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""mair"",0,false,false,"""",' !license_med_air && playerSide == independent '];      this addAction[""Helicopter Shop"",life_fnc_vehicleShopMenu,[""med_air_hs"",independent,""med_airs_100"",""med"",""Kavala Hosptial""]];      this setObjectTexture [0,""textures\medic_uniform.jpg""];";
 				};
 			};
 		};
@@ -81881,7 +81881,7 @@ class Mission
 		class Item304
 		{
 			position[]={14617.716,17.91,16664.666};
-			name="med_airs_101";
+			name="med_airs_100";
 			type="Empty";
 			angle=-55.531399;
 		};
@@ -81984,9 +81984,9 @@ class Mission
 			expDesactiv="1 fademusic 0;";
 			class Effects
 			{
-				track="track2";
+				track="track1";
 				titleType="TEXT";
-				title="Bienvenue au Camp Rebelle Sud. Le FREEKILL est interdit !";
+				title="Bienvenue sur la place de Kavala";
 			};
 		};
 		class Item2
@@ -82004,9 +82004,9 @@ class Mission
 			expDesactiv="1 fademusic 0;";
 			class Effects
 			{
-				track="track2";
+				track="track1";
 				titleType="TEXT";
-				title="Bienvenue au Camp Rebelle Nord. Le FREEKILL est interdit !";
+				title="Bienvenue sur la place de Kavala";
 			};
 		};
 		class Item3
@@ -82024,9 +82024,9 @@ class Mission
 			expDesactiv="1 fademusic 0;";
 			class Effects
 			{
-				track="track2";
+				track="track1";
 				titleType="TEXT";
-				title="Bienvenue au Camp Rebelle Est. Le FREEKILL est interdit !";
+				title="Bienvenue sur la place de Kavala";
 			};
 		};
 	};
