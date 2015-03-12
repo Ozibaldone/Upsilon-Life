@@ -21,20 +21,15 @@ _lightleft setLightAmbient [0.1,0.1,1];
 
 switch (typeOf _vehicle) do
 {
-	case "C_Offroad_01_F":
-	{
-		_lightleft lightAttachObject [_vehicle, [-0.37, 0.0, 0.56]];
-	};
-	
-	case "B_MRAP_01_F":
-	{
-		_lightleft lightAttachObject [_vehicle, [-0.37, -1.9, 0.7]];
-	};
-	
-	case "C_SUV_01_F":
-	{
-		_lightleft lightAttachObject [_vehicle, [-0.37,-1.2,0.42]];
-	};
+	case "B_Quadbike_01_F":{_lightleft lightAttachObject [_vehicle, [-0.07, 1, -0.7]];}; //<----ajouter quad	
+	case "C_Offroad_01_F":{_lightleft lightAttachObject [_vehicle, [-0.37, 0.0, 0.56]];};	
+    case "C_SUV_01_F":{_lightleft lightAttachObject [_vehicle, [-0.37,-1.2,0.42]];};
+    case "C_Hatchback_01_F":{_lightleft lightAttachObject [_vehicle, [-0.6, 2, -0.95]];};//<-------ajout hayon
+	case "C_Hatchback_01_sport_F":{_lightleft lightAttachObject [_vehicle, [-0.6, 2, -0.95]];};//<-------ajout hayon sport
+	case "B_MRAP_01_F":{_lightleft lightAttachObject [_vehicle, [-1, -2.8, 0.55]]; }; //<------ajout hunter	
+	case "I_MRAP_03_F": {_lightleft lightAttachObject [_vehicle, [-0.37, 0.0, 0.56]]; }; //<-----ajout strider
+    case "I_MRAP_03_hmg_F":	{_lightleft lightAttachObject [_vehicle, [-0.37, 0.0, 0.56]]; }; //<-----ajout strider hmg
+	case "B_Heli_Light_01_F": {_lightleft lightAttachObject [_vehicle, [-0.37, 0.0, 0.56]];}; //<----ajout lillte bird
 };
 
 _lightleft setLightAttenuation [0.181, 0, 1000, 130]; 
@@ -51,20 +46,15 @@ _lightright setLightAmbient [0.1,0.1,1];
 
 switch (typeOf _vehicle) do
 {
-	case "C_Offroad_01_F":
-	{
-		_lightright lightAttachObject [_vehicle, [0.37, 0.0, 0.56]];
-	};
-	
-	case "B_MRAP_01_F":
-	{
-		_lightright lightAttachObject [_vehicle, [0.37, -1.9, 0.7]];
-	};
-	
-	case "C_SUV_01_F":
-	{
-		_lightright lightAttachObject [_vehicle, [0.37,-1.2,0.42]];
-	};
+	case "B_Quadbike_01_F":{_lightleft lightAttachObject [_vehicle, [-0.07, 1, -0.7]];}; //<----ajouter quad	
+	case "C_Offroad_01_F":{_lightleft lightAttachObject [_vehicle, [-0.37, 0.0, 0.56]];};	
+    case "C_SUV_01_F":{_lightleft lightAttachObject [_vehicle, [-0.37,-1.2,0.42]];};
+    case "C_Hatchback_01_F":{_lightleft lightAttachObject [_vehicle, [-0.6, 2, -0.95]];};//<-------ajout hayon
+	case "C_Hatchback_01_sport_F":{_lightleft lightAttachObject [_vehicle, [-0.6, 2, -0.95]];};//<-------ajout hayon sport
+	case "B_MRAP_01_F":{_lightleft lightAttachObject [_vehicle, [-1, -2.8, 0.55]]; }; //<------ajout hunter	
+	case "I_MRAP_03_F": {_lightleft lightAttachObject [_vehicle, [-0.37, 0.0, 0.56]]; }; //<-----ajout strider
+    case "I_MRAP_03_hmg_F":	{_lightleft lightAttachObject [_vehicle, [-0.37, 0.0, 0.56]]; }; //<-----ajout strider hmg
+	case "B_Heli_Light_01_F": {_lightleft lightAttachObject [_vehicle, [-0.37, 0.0, 0.56]];}; //<----ajout lillte bird
 };
   
 _lightright setLightAttenuation [0.181, 0, 1000, 130]; 
