@@ -55,4 +55,3 @@ switch (_state) do
 		license_civ_rebel = false;
 	};
 };
-};
