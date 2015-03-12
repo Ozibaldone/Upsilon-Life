@@ -110,7 +110,7 @@ switch(_shop) do
 						["arifle_MXM_Black_F",nil,35000],
 						["30Rnd_65x39_caseless_mag",nil,130],
 						["arifle_MX_SW_Black_F",nil,35000],
-						["100Rnd_65x39_caseless_mag",100],
+						["100Rnd_65x39_caseless_mag",nil,100],
 						["100Rnd_65x39_caseless_mag_Tracer",nil,130],
 						["HandGrenade_Stone","Grenade Flash",5000]
 					]
