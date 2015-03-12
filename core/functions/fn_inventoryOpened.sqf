@@ -45,5 +45,5 @@ if(_container isKindOf "LandVehicle" OR _container isKindOf "Ship" OR _container
 	//[] spawn {
 		//waitUntil {!isNull (findDisplay 602)};
 		//closeDialog 0;
-	};
-};
+	//};
+//};
