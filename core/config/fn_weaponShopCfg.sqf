@@ -1,4 +1,4 @@
-#include <macro.h>
+﻿#include <macro.h>
 /*
 	File: fn_weaponShopCfg.sqf
 	Author: Bryan "Tonic" Boardwine
@@ -110,6 +110,7 @@ switch(_shop) do
 						["arifle_MXM_Black_F",nil,35000],
 						["30Rnd_65x39_caseless_mag",nil,130],
 						["arifle_MX_SW_Black_F",nil,35000],
+						["100Rnd_65x39_caseless_mag",100],
 						["100Rnd_65x39_caseless_mag_Tracer",nil,130],
 						["HandGrenade_Stone","Grenade Flash",5000]
 					]
@@ -189,8 +190,8 @@ switch(_shop) do
 	{
 		switch(true) do
 		{
-			case (playerSide != west): {"You are not a cop!"};
-			case (__GETC__(life_coplevel) < 1): {"You are not at a patrol officer rank!"};
+			case (playerSide != west): {"Vous n'ètes pas Policier !"};
+			case (__GETC__(life_coplevel) < 1): {"Accessible à la prochaine réunion. Peut-etre."};
 			default
 			{
 				["Accessoire",
@@ -294,8 +295,8 @@ switch(_shop) do
 	{
 		switch(true) do
 		{
-			case (playerSide != civilian): {"You are not a civilian!"};
-			case (!license_civ_rebel): {"You don't have a Rebel training license!"};
+			case (playerSide != civilian): {"Vous n'etes pas un civil!"};
+			case (!license_civ_rebel): {"Vous n'avez pas la licence Rebel!"};
 			default
 			{
 				["Equipement Rebel",
@@ -326,11 +327,11 @@ switch(_shop) do
 	{
 		switch(true) do
 		{
-			case (playerSide != civilian): {"You are not a civilian!"};
-			case (!license_civ_delinquant): {"You don't have a Rebel training license!"};
+			case (playerSide != civilian): {"Vous n'etes pas un Civil!"};
+			case (!license_civ_delinquant): {"Vous n'etes pas un Délinquant!"};
 			default
 			{
-				["Equipement Delinquant",
+				["Equipement Délinquant",
 					[
 						["srifle_DMR_01_F",nil,100000],
 						["10Rnd_762x51_Mag",nil,300],
@@ -352,8 +353,8 @@ switch(_shop) do
 	{
 		switch(true) do
 		{
-			case (playerSide != civilian): {"You are not a civilian!"};
-			case (!license_civ_terorriste): {"You don't have a Rebel training license!"};
+			case (playerSide != civilian): {"Vous n'etes pas un Civil!"};
+			case (!license_civ_terorriste): {"Vous n'etes pas un Terroriste!"};
 			default
 			{
 				["Equipement Terroriste",
@@ -372,11 +373,11 @@ switch(_shop) do
 	{
 		switch(true) do
 		{
-			case (playerSide != civilian): {"You are not a civilian!"};
-			case (!license_civ_gun): {"You don't have a Firearms license!"};
+			case (playerSide != civilian): {"Vous n'etes pas un Civil!"};
+			case (!license_civ_gun): {"Vous n'avez pas la licence d'arme!"};
 			default
 			{
-				["Billy Joe's Firearms",
+				["Armuerie de Billy Joe",
 					[
 						["hgun_Rook40_F",nil,25000],
 						["16Rnd_9x21_Mag",nil,50],
@@ -408,10 +409,10 @@ switch(_shop) do
 	{
 		switch(true) do
 		{
-			case (playerSide != civilian): {"You are not a civilian!"};
+			case (playerSide != civilian): {"Vous n'etes pas un Civil!"};
 			default
 			{
-				["Hideout Armament",
+				["Armement du Gang",
 					[
 						["ItemRadio","Téléphone",500],
                         ["arifle_Mk20_F",nil,45000],
