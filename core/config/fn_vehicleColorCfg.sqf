@@ -260,7 +260,7 @@ switch (_vehicle) do
 	{
 		_ret = 
 		[
-			["textures\police\cop_hunter_red_front.jpg","cop","textures\police\cop_hunter_red_back.jpg"]
+			["textures\police\cop_ifrit_red_front.jpg","cop","textures\police\cop_ifrit_red_front.jpg"]
 		];
 	};
 	
