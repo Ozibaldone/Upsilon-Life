@@ -161,7 +161,7 @@ switch (_vehicle) do
 			case 3: {_color = "Desert Digi"};
 			case 4: {_color = "EMS ORCA"};
 			case 5: {_color = "ORCA camo-black"};
-			case 6: {_color = "ORCA TBS"};
+			case 6: {_color = "TEAM TBS"};
 		};
 	};
 
@@ -169,20 +169,20 @@ switch (_vehicle) do
 	{
 		switch (_index) do
 		{
-			case 0: {_color = "if-Root"};
-			case 1: {_color = "if-Expendable"};
-			case 2: {_color = "if-Xzytal"};
-			case 3: {_color = "if-Gorille"};
-			case 4: {_color = "if-Tigers"};
-			case 5: {_color = "if-Troll"};
-			case 6: {_color = "if-Rat"};
-			case 7: {_color = "if-Cop"};
-			case 8: {_color = "iF-FTG"};
-			case 9: {_color = "iF-COLLINS"};
-			case 10: {_color = "if-Satanas"};
-			case 11: {_color = "if-CamoBlack"};
-			case 12: {_color = "if-Dalton"};
-			case 13: {_color = "if-LFG"};
+			case 0: {_color = "LIBRE-Root"};
+			case 1: {_color = "LIBRE-Expendable"};
+			case 2: {_color = "LIBRE-Xzytal"};
+			case 3: {_color = "LIBRE-Gorille"};
+			case 4: {_color = "LIBRE-Tigers"};
+			case 5: {_color = "LIBRE-Troll"};
+			case 6: {_color = "LIBRE-Rat"};
+			case 7: {_color = "LIBRE-Cop"};
+			case 8: {_color = "LIBRE-FTG"};
+			case 9: {_color = "LIBRE-COLLINS"};
+			case 10: {_color = "TEAM-Satanas"};-
+			case 11: {_color = "LIBRE-CamoBlack"};
+			case 12: {_color = "TEAM-Dalton"};
+			case 13: {_color = "TEAM-LFG"};
 		};
 	};	
 
@@ -190,16 +190,16 @@ switch (_vehicle) do
 	{
 		switch (_index) do
 		{
-			case 0: {_color = "ht-Root"};
-			case 1: {_color = "ht-Expendable"};
-			case 2: {_color = "ht-Xzytal"};
-			case 3: {_color = "ht-Gorille"};
-			case 4: {_color = "ht-Tigers"};
-			case 5: {_color = "ht-Troll"};
-			case 6: {_color = "ht-Rat"};
-			case 7: {_color = "ht-Cop"};
-			case 8: {_color = "Fed"};
-			case 9: {_color = "ht-FTG"};
+			case 0: {_color = "LIBRE-Root"};
+			case 1: {_color = "LIBRE-Expendable"};
+			case 2: {_color = "LIBRE-Xzytal"};
+			case 3: {_color = "LIBRE-Gorille"};
+			case 4: {_color = "LIBRE-Tigers"};
+			case 5: {_color = "LIBRE-Troll"};
+			case 6: {_color = "LIBRE-Rat"};
+			case 7: {_color = "LIBRE-Cop"};
+			case 8: {_color = "TEAM LFG"};
+			case 9: {_color = "TEAM-FTG"};
 			case 9: {_color = "brinks Upsilon"};
 		};
 	};
