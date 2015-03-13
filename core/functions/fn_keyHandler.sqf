@@ -140,7 +140,7 @@ switch (_code) do
 	};
 	
 	//F7
-	case 65:
+	case 207:
 	{
 		if(!_alt && !_ctrlKey && !dialog) then
 		{
