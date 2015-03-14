@@ -83015,7 +83015,7 @@ class Mission
 			b=23;
 			angle=92.883003;
 			rectangular=1;
-			activationBy="CIV";
+			activationBy="ANY";
 			repeating=1;
 			interruptable=1;
 			type="SWITCH";
@@ -83037,6 +83037,7 @@ class Mission
 			angle=120;
 			rectangular=1;
 			activationBy="CIV";
+			repeating=1;
 			interruptable=1;
 			type="SWITCH";
 			age="UNKNOWN";
@@ -83057,6 +83058,7 @@ class Mission
 			angle=56.678299;
 			rectangular=1;
 			activationBy="CIV";
+			repeating=1;
 			interruptable=1;
 			type="SWITCH";
 			age="UNKNOWN";
@@ -83077,6 +83079,7 @@ class Mission
 			angle=42.770302;
 			rectangular=1;
 			activationBy="CIV";
+			repeating=1;
 			interruptable=1;
 			type="SWITCH";
 			age="UNKNOWN";
