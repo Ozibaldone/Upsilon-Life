@@ -44,11 +44,11 @@ switch (_vehicle) do
 	{
 		_ret = 
 		[
-			["\A3\soft_F\Offroad_01\Data\offroad_01_ext_BASE01_CO.paa", "civ"],
+			["textures\civil\ttbleuet blanc.jpg","civ"],
 			["\A3\soft_F\Offroad_01\Data\offroad_01_ext_BASE02_CO.paa", "civ"],
-			["\A3\soft_F\Offroad_01\Data\offroad_01_ext_BASE03_CO.paa","civ"],
-			["\A3\soft_F\Offroad_01\Data\offroad_01_ext_BASE04_CO.paa","civ"],
-			["\A3\soft_F\Offroad_01\Data\offroad_01_ext_BASE05_CO.paa","civ"],
+			["textures\civil\ttblanc.jpg","civ"],
+			["textures\civil\ttbleu.jpg","civ"],
+			["textures\civil\ttrouge.jpg","civ"],
 			["textures\civil\tout-terrain-depaneur.jpg","civ"],
 			["textures\civil\tout-terrain-gulf.jpg","civ"],
 			["textures\civil\tout-terrain-pornup.jpg","civ"],

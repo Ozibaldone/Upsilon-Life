@@ -16,11 +16,11 @@ switch (_vehicle) do
 	{
 		switch (_index) do
 		{
-			case 0: {_color = "Red"};
+			case 0: {_color = "Ford-bleu&blanc"};
 			case 1: {_color = "Yellow"};
-			case 2: {_color = "White";};
-			case 3: {_color = "Blue"};
-			case 4: {_color = "Dark Red"};
+			case 2: {_color = "Ford-blanc";};
+			case 3: {_color = "Ford-Bleu"};
+			case 4: {_color = "Ford-Rouge"};
 			case 5: {_color = "TT Depanneur"};
 			case 6: {_color = "TT-Gulf"};
 			case 7: {_color = "TT-Pornup"};
