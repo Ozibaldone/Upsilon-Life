@@ -179,7 +179,7 @@ switch (_vehicle) do
 			case 7: {_color = "LIBRE-Cop"};
 			case 8: {_color = "LIBRE-FTG"};
 			case 9: {_color = "LIBRE-COLLINS"};
-			case 10: {_color = "TEAM-Satanas"};-
+			case 10: {_color = "TEAM-Satanas"};
 			case 11: {_color = "LIBRE-CamoBlack"};
 			case 12: {_color = "TEAM-Dalton"};
 			case 13: {_color = "TEAM-LFG"};
