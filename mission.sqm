@@ -83047,7 +83047,7 @@ class Mission
 			expDesactiv="1 fademusic 0;";
 			class Effects
 			{
-				track="track2";
+				track="track1";
 				titleType="TEXT";
 				title="Bienvenue au camp rebelle Sud";
 			};
@@ -83068,7 +83068,7 @@ class Mission
 			expDesactiv="1 fademusic 0;";
 			class Effects
 			{
-				track="track2";
+				track="track1";
 				titleType="TEXT";
 				title="Bienvenue au camp rebelle Nord";
 			};
@@ -83089,7 +83089,7 @@ class Mission
 			expDesactiv="1 fademusic 0;";
 			class Effects
 			{
-				track="track2";
+				track="track1";
 				titleType="TEXT";
 				title="Bienvenue au camp rebelle Est";
 			};
