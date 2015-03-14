@@ -83047,9 +83047,9 @@ class Mission
 			expDesactiv="1 fademusic 0;";
 			class Effects
 			{
-				track="track1";
+				track="track2";
 				titleType="TEXT";
-				title="Bienvenue sur la place de Kavala";
+				title="Bienvenue au camp rebelle Sud";
 			};
 		};
 		class Item2
@@ -83068,9 +83068,9 @@ class Mission
 			expDesactiv="1 fademusic 0;";
 			class Effects
 			{
-				track="track1";
+				track="track2";
 				titleType="TEXT";
-				title="Bienvenue sur la place de Kavala";
+				title="Bienvenue au camp rebelle Nord";
 			};
 		};
 		class Item3
@@ -83089,9 +83089,9 @@ class Mission
 			expDesactiv="1 fademusic 0;";
 			class Effects
 			{
-				track="track1";
+				track="track2";
 				titleType="TEXT";
-				title="Bienvenue sur la place de Kavala";
+				title="Bienvenue au camp rebelle Est";
 			};
 		};
 	};
