@@ -260,7 +260,7 @@ switch (_vehicle) do
 	{
 		_ret = 
 		[
-			["textures\police\cop_ifrit_red_front.jpg","cop","textures\police\cop_ifrit_red_front.jpg"]
+			["textures\police\cop_ifrit_red_front.jpg","cop","textures\police\skinb.jpg","cop","textures\police\cop_ifrit_red_front.jpg"]
 		];
 	};
 	
@@ -268,7 +268,7 @@ switch (_vehicle) do
 	{
 		_ret = 
 		[
-			["textures\depanneur\DEPHMTT.jpg","med","textures\depanneur\DEPHMTTCUL.jpg"]
+			["textures\depanneur\DEPHMTT.jpg","med","textures\police\skinb.jpg","med","textures\depanneur\DEPHMTTCUL.jpg"]
 		];
 	};
 	
