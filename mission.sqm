@@ -4882,7 +4882,7 @@ class Mission
 					vehicle="B_RangeMaster_F";
 					leader=1;
 					skill=0.60000002;
-					init="this enableSimulation false;  this allowDamage false;  this addAction[format[""%1 ($%2)"",[""license_med_air""] call life_fnc_varToStr,[([""mair""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""mair"",0,false,false,"""",' !license_med_air && playerSide == independent '];  this addAction[""EMS Item Shop"",life_fnc_weaponShopMenu,""med_basic""];  this addAction[""Vehicle Shop"",life_fnc_vehicleShopMenu,[""med_shop"",independent,""med_car_2"",""med"",""Kavala Hosptial""]];  this addAction[""Helicopter Shop"",life_fnc_vehicleShopMenu,[""med_air_hs"",independent,""medic_spawn_3"",""med"",""Kavala Hosptial""]];  this addAction[""Car Garage"",  {   [[getPlayerUID player,playerSide,""Car"",player],""TON_fnc_getVehicles"",false,false] spawn life_fnc_MP;   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""med_car_2""; life_garage_type = ""Car"";  },"""",0,false,false,"""",'playerSide == independent'];  this addAction[""Helicopter Garage"",  {   [[getPlayerUID player,playerSide,""Air"",player],""TON_fnc_getVehicles"",false,false] spawn life_fnc_MP;   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""medic_spawn_3""; life_garage_type = ""Air"";  },"""",0,false,false,"""",'playerSide == independent '];  this addAction[""Store vehicle in Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];  this setObjectTexture [0,""textures\medic_uniform.jpg""];";
+					init="this enableSimulation false;    this allowDamage false;     this addAction[format[""%1 ($%2)"",[""license_med_air""] call life_fnc_varToStr,[([""mair""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""mair"",0,false,false,"""",' !license_med_air && playerSide == independent '];     this addAction[""Helicopter Shop"",life_fnc_vehicleShopMenu,[""med_air_hs"",independent,""med_airs_100"",""med"",""Athira Hosptial""]];     this setObjectTexture [0,""textures\medic_uniform.jpg""];";
 				};
 			};
 		};
@@ -4924,7 +4924,7 @@ class Mission
 					vehicle="B_RangeMaster_F";
 					leader=1;
 					skill=0.60000002;
-					init="this enableSimulation false;    this allowDamage false;    this addAction[""Vehicle Garage"",  {   [[getPlayerUID player,playerSide,""Car"",player],""TON_fnc_getVehicles"",false,false] spawn life_fnc_MP;    createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];    life_garage_sp = ""med_carg_100""; life_garage_type = ""Car"";  },"""",0,false,false,"""",'playerSide == independent '];    this setObjectTexture [0,""textures\medic_uniform.jpg""];";
+					init="this enableSimulation false;      this allowDamage false;      this addAction[""Garage Terrestre"",  {   [[getPlayerUID player,playerSide,""Car"",player],""TON_fnc_getVehicles"",false,false] spawn life_fnc_MP;      createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];      life_garage_sp = ""med_carg_100""; life_garage_type = ""Car"";  },"""",0,false,false,"""",'playerSide == independent '];      this addAction[""Mettre au Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];      this setObjectTexture [0,""textures\medic_uniform.jpg""];";
 				};
 			};
 		};
@@ -5208,7 +5208,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=7654;
+		items=7658;
 		class Item0
 		{
 			position[]={8455.4209,49.162537,12748.438};
@@ -80303,10 +80303,54 @@ class Mission
 			skill=0.40000001;
 			init="this setVectorUp [0,0,1];this allowDamage false; this enableSimulation false;";
 		};
+		class Item7654
+		{
+			position[]={14627.654,17.91,16654.311};
+			azimut=380.362;
+			id=7941;
+			side="EMPTY";
+			vehicle="Land_HelipadCivil_F";
+			leader=1;
+			skill=0.60000002;
+			init="this allowDamage false; this enableSimulation false;";
+		};
+		class Item7655
+		{
+			position[]={14668.031,17.91,16696.492};
+			azimut=380.362;
+			id=7942;
+			side="EMPTY";
+			vehicle="Land_HelipadCivil_F";
+			leader=1;
+			skill=0.60000002;
+			init="this allowDamage false; this enableSimulation false;";
+		};
+		class Item7656
+		{
+			position[]={14716.335,17.91,16728.389};
+			azimut=380.362;
+			id=7943;
+			side="EMPTY";
+			vehicle="Land_HelipadCivil_F";
+			leader=1;
+			skill=0.60000002;
+			init="this allowDamage false; this enableSimulation false;";
+		};
+		class Item7657
+		{
+			position[]={14760.389,17.91,16777.758};
+			azimut=380.362;
+			id=7944;
+			side="EMPTY";
+			vehicle="Land_HelipadCivil_F";
+			leader=1;
+			skill=0.60000002;
+			init="this allowDamage false; this enableSimulation false;";
+		};
 	};
 	class Markers
 	{
-		items=317;
+		items=321;
 		class Item0
 		{
 			position[]={8462.0215,106.47763,25095.248};
@@ -81758,7 +81802,7 @@ class Mission
 		};
 		class Item181
 		{
-			position[]={14660.273,17.91,16701.588};
+			position[]={14668.452,17.91,16696.895};
 			name="med_airg_100";
 			type="Empty";
 			angle=-55.531399;
@@ -82845,21 +82889,21 @@ class Mission
 		};
 		class Item304
 		{
-			position[]={14620.484,17.91,16654.977};
+			position[]={14628.015,17.91,16654.627};
 			name="med_airs_100";
 			type="Empty";
 			angle=-55.531399;
 		};
 		class Item305
 		{
-			position[]={14721.464,17.91,16725.543};
+			position[]={14716.802,17.91,16728.695};
 			name="med_carg_100";
 			type="Empty";
 			angle=-55.531399;
 		};
 		class Item306
 		{
-			position[]={14765.271,17.91,16772.445};
+			position[]={14760.595,17.91,16778.166};
 			name="med_cars_100";
 			type="Empty";
 			angle=-55.531399;
@@ -82931,6 +82975,34 @@ class Mission
 			name="lfgop";
 			type="Empty";
 			angle=-59.534061;
+		};
+		class Item317
+		{
+			position[]={24469.965,-0.019091487,11398.723};
+			name="med_airg_100_1";
+			type="Empty";
+			angle=-55.531399;
+		};
+		class Item318
+		{
+			position[]={24508.418,-0.1481356,11438.768};
+			name="med_airg_100_2";
+			type="Empty";
+			angle=-55.531399;
+		};
+		class Item319
+		{
+			position[]={24566.723,0.32167119,11466.23};
+			name="med_airg_100_3";
+			type="Empty";
+			angle=-55.531399;
+		};
+		class Item320
+		{
+			position[]={24610.791,0.040240616,11513.031};
+			name="med_airg_100_4";
+			type="Empty";
+			angle=-55.531399;
 		};
 	};
 	class Sensors
