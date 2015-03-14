@@ -31,6 +31,7 @@ switch (_filter) do
 	{
 		_ret = 
 		[
+		["G_Lowprofile",nil,30],
 		];
 	};
 	
@@ -57,6 +58,25 @@ switch (_filter) do
 	{
 		_ret  = 
 		[
+			["V_PlateCarrier2_rgr",nil,1500],
+			["V_RebreatherB",nil,0],
+			["V_BandollierB_rgr",nil,0],
+			["V_PlateCarrier1_blk",nil,0],
+			["V_Chestrig_blk",nil,0],
+			["V_TacVest_blk_POLICE",nil,0],
+			["V_TacVestIR_blk",nil,0],
+			["V_TacVestCamo_khk",nil,0],
+			["V_HarnessO_brn",nil,0],
+			["V_HarnessOGL_brn",nil,0],
+			["_HarnessO_gry",nil,0],
+			["V_HarnessOSpec_brn",nil,0],
+			["V_PlateCarrierIA1_dgtl",nil,0],
+			["V_PlateCarrierIA2_dgtl",nil,0],
+			["V_PlateCarrierIAGL_dgtl",nil,0],
+			["V_PlateCarrier_Kerry",nil,0],
+			["V_PlateCarrierL_CTRG",nil,0],
+			["V_PlateCarrierH_CTRG",nil,0],
+			["V_I_G_resistanceLeader_F",nil,0]
 		];
 	};
 	
