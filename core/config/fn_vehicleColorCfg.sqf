@@ -153,7 +153,8 @@ switch (_vehicle) do
 			["\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_vrana_co.paa","civ"],
 			["\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_wave_co.paa","civ"],
 			["\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_digital_co.paa","reb"],
-			["textures\medic\heli-medic.jpg","med"]
+			["textures\medic\heli-medic.jpg","med"],
+			["textures\teamrebelle\hemiLFG.jpg","reb"]
 	
 		];
 	};
