@@ -183,6 +183,7 @@ switch (_vehicle) do
 			case 11: {_color = "LIBRE-CamoBlack"};
 			case 12: {_color = "TEAM-Dalton"};
 			case 13: {_color = "TEAM-LFG"};
+			case 13: {_color = "TEAM-ASO"};
 		};
 	};	
 
