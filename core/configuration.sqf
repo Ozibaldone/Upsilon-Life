@@ -165,7 +165,10 @@ life_inv_items =
 	"life_inv_boltcutter",
 	"life_inv_defusekit",
 	"life_inv_storagesmall",
-	"life_inv_storagebig"
+	"life_inv_storagebig",
+	"life_inv_platinep",
+	"life_inv_osmium",
+	"life_inv_palladium"
 ];
 
 //Setup variable inv vars.
@@ -197,7 +200,8 @@ life_licenses =
 	["license_med_air","med"],
 	["license_civ_delinquant","civ"],
 	["license_civ_terroriste","civ"],
-	["license_civ_lfg","civ"]
+	["license_civ_lfg","civ"],
+	["license_civ_mineralogiste","civ"]
 ];
 
 //Setup License Variables
@@ -246,7 +250,10 @@ sell_array =
 	["fuelF",500],
 	["spikeStrip",1200],
 	["cement",1950],
-	["goldbar",95000]
+	["goldbar",95000],
+	["platinep",3600], 
+	["osmium",1400], 
+	["palladium",1600] 
 ];
 __CONST__(sell_array,sell_array);
 
@@ -276,7 +283,10 @@ buy_array =
 	["boltcutter",7500],
 	["defusekit",2500],
 	["storagesmall",75000],
-	["storagebig",150000]
+	["storagebig",150000],
+	["platinep",4600], 
+	["osmium",2400], 
+	["palladium",2600]
 ];
 __CONST__(buy_array,buy_array);
 

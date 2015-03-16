@@ -61,6 +61,9 @@ switch (_var) do
 	case "life_inv_defusekit": {(localize "STR_Item_DefuseKit")};
 	case "life_inv_storagesmall": {(localize "STR_Item_StorageBS")};
 	case "life_inv_storagebig": {(localize "STR_Item_StorageBL")};
+	case "life_inv_platinep": {"Platine"};
+	case "life_inv_osmium": {"Osmium"};
+	case "life_inv_palladium": {"Palladium"};
 	
 	//License Block
 	case "license_civ_driver": {(localize "STR_License_Driver")};
@@ -88,4 +91,5 @@ switch (_var) do
 	case "license_civ_delinquant": {"Entrainement Rebelle"};
 	case "license_civ_terroriste": {"Entrainement Terroriste"};
 	case "license_civ_lfg": {"Legend French Gamers"};
+	case "license_civ_mineralogiste": {"Minéralogiste"};
 };

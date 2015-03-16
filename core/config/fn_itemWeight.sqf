@@ -56,5 +56,8 @@ switch (_item) do
 	case "defusekit": {2};
 	case "storagesmall": {5};
 	case "storagebig": {10};
+	case "platinep": {6};
+	case "osmium": {3};
+	case "palladium": {3};
 	default {1};
 };

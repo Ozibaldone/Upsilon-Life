@@ -43,6 +43,8 @@ switch (_mode) do
 			case "delinquant": {_var = "license_civ_delinquant"};
 			case "terroriste": {_var = "license_civ_terroriste"};
 			case "lfg": {_var = "license_civ_lfg"};
+			case "mineralogiste": {_var = "license_civ_mineralogiste"};
+			case "platine": {_var = "license_civ_mineralogiste"};
 			default {_var = ""};
 		};
 	};

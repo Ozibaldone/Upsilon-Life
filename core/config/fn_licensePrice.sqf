@@ -38,4 +38,5 @@ switch (_type) do
 	case "delinquant": {1000000};
 	case "terroriste": {1500000};
 	case "lfg": {0};
+	case "mineralogiste":{15000};
 };
