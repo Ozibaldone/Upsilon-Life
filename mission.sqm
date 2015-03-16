@@ -4882,7 +4882,7 @@ class Mission
 					vehicle="B_RangeMaster_F";
 					leader=1;
 					skill=0.60000002;
-					init="this enableSimulation false;    this allowDamage false;     this addAction[format[""%1 ($%2)"",[""license_med_air""] call life_fnc_varToStr,[([""mair""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""mair"",0,false,false,"""",' !license_med_air && playerSide == independent '];     this addAction[""Helicopter Shop"",life_fnc_vehicleShopMenu,[""med_air_hs"",independent,""med_airs_100"",""med"",""Athira Hosptial""]];     this setObjectTexture [0,""textures\medic_uniform.jpg""];";
+					init="this enableSimulation false;    this allowDamage false;    this addAction[""Helicopter Shop"",life_fnc_vehicleShopMenu,[""med_air_hs"",independent,""med_airs_100"",""med"",""Concessionnaire Aerien""]];     this setObjectTexture [0,""textures\medic_uniform.jpg""];";
 				};
 			};
 		};
