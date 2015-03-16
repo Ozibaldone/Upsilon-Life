@@ -15,11 +15,12 @@
 <t color='#FF0000'>Afin d'ameliorer votre confort de jeu, tous bugs rapporté aux administrateurs sera récompencé</t><br/><br/>
 
 <t size='1.5' color='#4182ea'>Commandes:</t><br/>
-<t>Réduire/Augmenter son: </t><t color='#4182ea'>Shift + P</t><br/>
+<t>Réduire/Augmenter son: </t><t color='#4182ea'>FIN </t><br/>
 <t>Se rendre: </t><t color='#4182ea'>Shift + G </t><br/>
 <t>Menu d'action: </t><t color='#4182ea'>Touche Windows </t><br/>
 <t>Menotter: </t><t color='#4182ea'>Shift + R </t><br/>
 <t>Assomer: </t><t color='#4182ea'>Shift + R(civil) </t><br/>
+<t>Miner: </t><t color='#4182ea'>Touche Windows </t><br/>
 <t>Coffre voiture: </t><t color='#4182ea'>T </t><br/>
 <t>Ouvrir porte voitures/maisons: </t><t color='#4182ea'>U </t><br/>
 <br/>
