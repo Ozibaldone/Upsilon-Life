@@ -27,7 +27,9 @@ switch (_shop) do
 			["C_Offroad_01_F",13500],
 			["C_Van_01_box_F",20000],
 			["C_SUV_01_F",20000],
-			["B_Truck_01_mover_F",20000]
+			["B_Truck_01_mover_F",20000],
+			["B_Heli_Light_01_F",50000],
+			["O_Heli_Light_02_unarmed_F",75000]
 		];
 	};
 	
