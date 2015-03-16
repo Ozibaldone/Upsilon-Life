@@ -90,6 +90,7 @@ class Life_Client_Core
 		class medicSirenLights {};
 		class medicLights {};
 		class medicSiren {};
+		class medicEnter {};
 	};
 	
 	class Actions
