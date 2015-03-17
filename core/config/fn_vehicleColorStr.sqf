@@ -150,6 +150,7 @@ switch (_vehicle) do
 			case 14: {_color = "EMS"};
 			case 15: {_color = "TEAM-LFG"};
 			case 16: {_color = "TEAM-FTG"};
+			case 16: {_color = "TEAM-ASO"};
 		};
 	};
 	
