@@ -267,6 +267,18 @@ switch (_vehicle) do
 		];
 	};
 	
+	case "O_MRAP_02_hmg_F":
+	{
+		_ret = 
+		[
+			["textures\police\cop_ifrit_red_front.jpg","cop","textures\police\skinb.jpg"],
+			["textures\teamrebelle\lfg.jpg","reb","textures\police\skinb.jpg"],
+			["textures\rebel\if-camo-black-front.jpg","reb","textures\police\skinb.jpg"],
+			["textures\teamrebelle\if-ftg-front.jpg","reb","textures\police\skinb.jpg"],
+			["textures\teamrebelle\if-dalton-front.jpg","reb","textures\police\skinb.jpg"]
+		];
+	};
+	
 	
 	case "O_Plane_CAS_02_F":
 	{

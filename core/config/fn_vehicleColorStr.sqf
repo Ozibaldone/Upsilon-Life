@@ -282,6 +282,10 @@ switch (_vehicle) do
 		switch (_index) do
 		{
 			case 0: {_color = "gendarmerie"};
+			case 1: {_color = "TEAM-LFG"};
+			case 2: {_color = "LIBRE CAMO BLACK"};
+			case 3: {_color = "TEAM-FTG"};
+			case 4: {_color = "TEAM-Dalton"};
 
 		};
 	};
