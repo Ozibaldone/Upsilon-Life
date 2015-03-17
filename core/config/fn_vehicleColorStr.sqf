@@ -148,8 +148,7 @@ switch (_vehicle) do
 			case 12: {_color = "Waves Blue"};
 			case 13: {_color = "Rebel Digital"};
 			case 14: {_color = "EMS"};
-			case 15: {_color = "TEAM-LFG"};
-			case 15: {_color = "TEAM-FTG"};
+			case 15: {_color = "team-LFG"};
 		};
 	};
 	
