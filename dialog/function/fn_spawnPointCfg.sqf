@@ -44,6 +44,10 @@ switch (_side) do
 			_return set [count _return, ["lfgop","LFG Villa","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]];
 		};
 		
+		if(license_civ_aso) then {
+			_return set [count _return, ["asoop","LFG Villa","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]];
+		};
+		
 		if((call life_donatorlevel) == 1) then {
 			_return = _return + [
 				["vip_1","Camp Donateur","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
