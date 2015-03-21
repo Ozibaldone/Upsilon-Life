@@ -17,20 +17,11 @@ removeAllAssignedItems player;
 RemoveGoggles player;
 
 //Medic Gear + Setup
-if((__GETC__(life_medicLevel)) == 1) exitWith {
-	player forceAddUniform "U_O_OfficerUniform_ocamo";
+if((__GETC__(life_medicLevel)) exitWith {
+	player forceAddUniform "U_Rangemaster";
 	player setObjectTextureGlobal [0,"textures\medic_uniform.jpg"];
-	player addBackpackGlobal "B_Kitbag_sgg";
 	hint "Vous prenez votre service.";
+		player addBackpackGlobal "B_Carryall_cbr";
 	[] call life_fnc_medicLoadout;
 };
-
-//ADAC Gear + Setup
-if((__GETC__(life_medicLevel)) == 2) exitWith {
-	player forceAddUniform "U_B_HeliPilotCoveralls";
-	player setObjectTextureGlobal [0,"textures\medic_uniform.jpg"];
-	player addHeadgear "H_Cap_marshal";
-	player addBackpackGlobal "B_Kitbag_cbr";
-	hint "Vous prenez votre service.";
-	[] call life_fnc_medicLoadout;
 };

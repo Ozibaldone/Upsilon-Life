@@ -1,4 +1,5 @@
 class Socket_Reciever
+class Socket_Reciever
 {
 	tag = "SOCK";
 	class SQL_Socket
@@ -91,6 +92,7 @@ class Life_Client_Core
 		class medicLights {};
 		class medicSiren {};
 		class medicEnter {};
+		class resetMedic {};
 	};
 	
 	class Actions
