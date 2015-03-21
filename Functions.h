@@ -92,7 +92,6 @@ class Life_Client_Core
 		class medicLights {};
 		class medicSiren {};
 		class medicEnter {};
-		class resetMedic {};
 	};
 	
 	class Actions
