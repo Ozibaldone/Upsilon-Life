@@ -24,3 +24,5 @@ player addItemToUniform "Chemlight_yellow";
 player addItemToUniform "Chemlight_yellow";
 player addItemToUniform "Chemlight_yellow";
 player addItemToUniform "Chemlight_yellow";
+
+[[player,0,"textures\medic_uniform.jpg"],"life_fnc_setTexture",true,false] spawn life_fnc_MP;
