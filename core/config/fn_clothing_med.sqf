@@ -22,7 +22,7 @@ switch (_filter) do
 	{
 		_ret = 
 		[
-			["U_Rangemaster","Uniforme Médecin",25],
+			["U_Rangemaster","Uniforme Médecin",25]
 		];
 	};
 	
@@ -31,7 +31,7 @@ switch (_filter) do
 	{
 		_ret = 
 		[
-			["G_Lowprofile",nil,30],
+			["G_Lowprofile",nil,30]
 		];
 	};
 	
